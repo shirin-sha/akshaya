@@ -54,7 +54,7 @@ export default function Bannerone() {
                                     <div className="banner-one-box">
                                         <div className="banner-one-box-inner">
                                             <i className="flaticon-money-bag" />
-                                            <h2>Quality and style</h2>
+                                            <h2 className="banner-one-box-title-lg">Quality and style</h2>
                                         </div>
                                         <p>
                                             Residential, commercial and large scale projects delivered with
@@ -96,7 +96,7 @@ export default function Bannerone() {
                                     <div className="banner-one-box">
                                         <div className="banner-one-box-inner">
                                             <i className="flaticon-money-bag" />
-                                            <h2>Full scope supply</h2>
+                                            <h2 className="banner-one-box-title-lg">Full scope supply</h2>
                                         </div>
                                         <p>
                                             Furniture, fixtures, equipment and fit-out support for spaces that

@@ -1439,6 +1439,9 @@ ul.topbar-three-social-media li a:hover {
     color: var(--loanlift-text-light);
     margin: 0;
 }
+.banner-one-box-title-lg {
+    font-size: 30px;
+}
 .banner-one-box-inner {
     display: flex;
     column-gap: 26px;
