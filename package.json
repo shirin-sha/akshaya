@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "circletype": "^2.3.0",
-    "next": "15.1.7",
+    "next": "15.5.18",
     "number-counter": "^1.0.3",
     "rc-progress": "^4.0.0",
     "rc-slider": "^11.1.8",
@@ -24,6 +24,6 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "eslint": "^9",
-    "eslint-config-next": "15.1.7"
+    "eslint-config-next": "15.5.18"
   }
 }
