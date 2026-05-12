@@ -14,14 +14,13 @@ export default function Preloader() {
             <div className="preloader">
                 <div className="loading-container">
                     <div className="loading-text">
-                        <span>L</span>
-                        <span>O</span>
                         <span>A</span>
-                        <span>N</span>
                         <span>L</span>
-                        <span>I</span>
-                        <span>F</span>
-                        <span>T</span>
+                        <span>S</span>
+                        <span>H</span>
+                        <span>A</span>
+                        <span>Y</span>
+                        <span>A</span>
                     </div>
                 </div>
             </div>

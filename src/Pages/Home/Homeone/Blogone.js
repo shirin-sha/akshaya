@@ -8,24 +8,24 @@ import Blog04 from '../../../assets/images/blog/blog-2.jpg';
 const Blogdata=[
     {
         Image: Blog02,
-        badge: "LOAN",
-        name: "By Deni",
-        date: "On 29 Sup 2024",
-        content: "Maximizing ROI: how data-driven strategies can transform your business"
+        badge: "INTERIORS",
+        name: "By Alshaya Team",
+        date: "On 12 May 2026",
+        content: "How smart interior planning improves commercial spaces"
     },
     {
         Image: Blog03,
-        badge: "FUNDING",
-        name: "By Jhon",
-        date: "On 05 Jan 2024",
-        content: "How to successfully manage your loan repayments: tips and strategies"
+        badge: "HOSPITALITY",
+        name: "By Alshaya Team",
+        date: "On 05 May 2026",
+        content: "Why quality FF&E matters for guest experience"
     },
     {
         Image: Blog04,
-        badge: "FINANACIAL",
-        name: "By Elei",
-        date: "On 18 Feb 2024",
-        content: "The impact of credit scores on loan approval: what you need to know"
+        badge: "RETAIL",
+        name: "By Alshaya Team",
+        date: "On 28 Apr 2026",
+        content: "Choosing the right equipment for supermarket projects"
     },
     
 ]
@@ -41,15 +41,14 @@ export default function Blogone() {
                         <div className="col-lg-8 m-auto">
                             <div className="heading-box text-center">
                                 <span className="heading-subtitle wow fadeInUp animated animated">
-                                    🤝 NEWS &amp; TIPS
+                                    NEWS AND TIPS
                                 </span>
                                 <h2 className="heading-title wow fadeInUp animated animated">
-                                    Recent News &amp; Blog
+                                    Recent News And Blog
                                 </h2>
                                 <p className="heading-details">
-                                    Discover effective strategies for managing your loan repayments and
-                                    staying on track financially. Our tips will help you navigate
-                                    repayment challenges and achieve financial stability.
+                                    Explore insights, ideas and updates related to interiors, commercial equipment,
+                                    retail spaces, kitchens, storage systems and modern project solutions.
                                 </p>
                             </div>
                         </div>
@@ -61,7 +60,7 @@ export default function Blogone() {
                                 <div className="blog-one-box">
                                     <div className="blog-one-image">
                                         <Link href="/Blogdetails">
-                                            <Image src={data.Image} alt="blog-image" layout='intrinsic'/>
+                                            <Image src={data.Image} alt={data.content} layout='intrinsic'/>
                                         </Link>
                                         <Link href="#" className="blog-one-tag">
                                             <span>{data.badge}</span>
@@ -81,7 +80,7 @@ export default function Blogone() {
                                                 {data.content}
                                             </Link>
                                         </h5>
-                                        <Link href="Blogdetails" className="btn-link">
+                                        <Link href="/Blogdetails" className="btn-link">
                                             <span>Read More</span>
                                             <i className="flaticon-next" />
                                         </Link>

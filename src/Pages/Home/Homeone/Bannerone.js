@@ -34,14 +34,13 @@ export default function Bannerone() {
                                     <div className="col-xl-7 col-lg-8 col-md-10">
                                         <div className="banner-one-info">
                                             <div className="banner-title fade-left">
-                                                <h1>Elevate Your Financial Future with LoanLift</h1>
+                                                <h1>Transforming Spaces With Smart Interior Solutions</h1>
                                             </div>
                                             <div className="section-details fade-left">
                                                 <p>
-                                                    We offer a range of expert services designed to support your
-                                                    financial journey and business success. Our consultancy
-                                                    includes tailored financial planning, strategic business
-                                                    advice.
+                                                    We deliver complete interior, furnishing and commercial equipment solutions
+                                                    designed to support residential, commercial and large scale project
+                                                    requirements with quality, style and dependable execution.
                                                 </p>
                                             </div>
                                             <div className="fade-in-up">
@@ -55,11 +54,11 @@ export default function Bannerone() {
                                     <div className="banner-one-box">
                                         <div className="banner-one-box-inner">
                                             <i className="flaticon-money-bag" />
-                                            <h2>5% Interest</h2>
+                                            <h2>Quality and style</h2>
                                         </div>
                                         <p>
-                                            Discover our dependable loan solutions designed to empower your
-                                            financial journey.
+                                            Residential, commercial and large scale projects delivered with
+                                            dependable execution and refined detailing.
                                         </p>
                                     </div>
                                 </div>
@@ -77,19 +76,18 @@ export default function Bannerone() {
                                     <div className="col-xl-7 col-lg-8 col-md-10">
                                         <div className="banner-one-info">
                                             <div className="banner-title fade-left">
-                                                <h1>Your Partner Financial Growth Success</h1>
+                                                <h1>Your Partner For Complete Project Solutions</h1>
                                             </div>
                                             <div className="section-details fade-left">
                                                 <p>
-                                                    We offer a range of expert services designed to support your
-                                                    financial journey and business success. Our consultancy
-                                                    includes tailored financial planning, strategic business
-                                                    advice.
+                                                    From furniture, flooring and lighting to kitchens, supermarket equipment and
+                                                    warehouse storage systems, Alshaya Enterprises helps clients build functional
+                                                    and refined spaces.
                                                 </p>
                                             </div>
                                             <div className="fade-in-up">
-                                                <Link href="/Contactus" className="btn btn-primary">
-                                                    Contact Us
+                                                <Link href="/Service1" className="btn btn-primary">
+                                                    Explore Services
                                                     <i className="flaticon-next" />
                                                 </Link>
                                             </div>
@@ -98,11 +96,11 @@ export default function Bannerone() {
                                     <div className="banner-one-box">
                                         <div className="banner-one-box-inner">
                                             <i className="flaticon-money-bag" />
-                                            <h2>5% Interest</h2>
+                                            <h2>Full scope supply</h2>
                                         </div>
                                         <p>
-                                            Discover our dependable loan solutions designed to empower your
-                                            financial journey.
+                                            Furniture, fixtures, equipment and fit-out support for spaces that
+                                            work beautifully day to day.
                                         </p>
                                     </div>
                                 </div>

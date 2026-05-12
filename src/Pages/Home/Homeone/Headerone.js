@@ -44,33 +44,33 @@ export default function Headerone() {
                         <div className="topbar-one-right">
                             <ul className="topbar-one-right-one white-font">
                                 <li>
-                                    <Link href="/Faq">Help</Link>
+                                    <Link href="#">Help</Link>
                                 </li>
                                 <li>
-                                    <Link href="/Aboutus">About</Link>
+                                    <Link href="#">About</Link>
                                 </li>
                                 <li>
-                                    <Link href="/Contactus">Contact</Link>
+                                    <Link href="#">Contact</Link>
                                 </li>
                             </ul>
                             <ul className="topbar-one-social-media white-font">
                                 <li>
-                                    <Link href="https://www.facebook.com/">
+                                    <Link href="#">
                                         <i className="fa-brands fa-facebook-f" />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="https://x.com/">
+                                    <Link href="#">
                                         <i className="fa-brands fa-twitter" />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="https://www.instagram.com/">
+                                    <Link href="#">
                                         <i className="fa-brands fa-instagram" />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="https://in.linkedin.com/">
+                                    <Link href="#">
                                         <i className="fa-brands fa-linkedin-in" />
                                     </Link>
                                 </li>
@@ -93,19 +93,19 @@ export default function Headerone() {
                                     <Link href="/">Home</Link>
                                 </li>
                                 <li>
-                                    <Link href="/Aboutus">About Us</Link>
+                                    <Link href="#">About Us</Link>
                                 </li>
                                 <li>
-                                    <Link href="/Service1">Services</Link>
+                                    <Link href="#">Services</Link>
                                 </li>
                                 <li>
-                                    <Link href="/Portfolio">Projects</Link>
+                                    <Link href="#">Projects</Link>
                                 </li>
                                 <li>
-                                    <Link href="/Blogstandard">Media Hub</Link>
+                                    <Link href="#">Media Hub</Link>
                                 </li>
                                 <li>
-                                    <Link href="/Careers">Careers</Link>
+                                    <Link href="#">Careers</Link>
                                 </li>
                                 <li>
                                     <Link href="/Contactus">Contact Us</Link>
@@ -119,7 +119,7 @@ export default function Headerone() {
                                 </button>
                             </div>
                             <div className={`main-menu-right ${isMenuExpanded ? "expanded" : ""}`}>
-                                <Link href="/Contactus" className="btn btn-primary">
+                                <Link href="#" className="btn btn-primary">
                                     Get Started <i className="flaticon-next" />
                                 </Link>
                             </div>
@@ -144,25 +144,25 @@ export default function Headerone() {
                                     <Link href="/" onClick={toggleMenu}>Home</Link>
                                 </li>
                                 <li>
-                                    <Link href="/Aboutus" onClick={toggleMenu}>About Us</Link>
+                                    <Link href="#" onClick={toggleMenu}>About Us</Link>
                                 </li>
                                 <li>
-                                    <Link href="/Service1" onClick={toggleMenu}>Services</Link>
+                                    <Link href="#" onClick={toggleMenu}>Services</Link>
                                 </li>
                                 <li>
-                                    <Link href="/Portfolio" onClick={toggleMenu}>Projects</Link>
+                                    <Link href="#" onClick={toggleMenu}>Projects</Link>
                                 </li>
                                 <li>
-                                    <Link href="/Blogstandard" onClick={toggleMenu}>Media Hub</Link>
+                                    <Link href="#" onClick={toggleMenu}>Media Hub</Link>
                                 </li>
                                 <li>
-                                    <Link href="/Careers" onClick={toggleMenu}>Careers</Link>
+                                    <Link href="#" onClick={toggleMenu}>Careers</Link>
                                 </li>
                                 <li>
-                                    <Link href="/Contactus" onClick={toggleMenu}>Contact Us</Link>
+                                    <Link href="#" onClick={toggleMenu}>Contact Us</Link>
                                 </li>
                                 <li>
-                                    <Link href="/Contactus" className="btn btn-primary" onClick={toggleMenu}>
+                                    <Link href="#" className="btn btn-primary" onClick={toggleMenu}>
                                         Get Started <i className="flaticon-next" />
                                     </Link>
                                 </li>

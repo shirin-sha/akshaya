@@ -5,19 +5,16 @@ import Slider from 'react-slick';
 import Image from 'next/image';
 import Test01 from '../../../assets/images/blog/blog-three-1.jpg';
 import Test02 from '../../../assets/images/testimonial/testimonial-1.png';
-import Test03 from '../../../assets/images/testimonial/testimonial-2.png';
-import Test04 from '../../../assets/images/testimonial/testimonial-3.png';
-import Test05 from '../../../assets/images/testimonial/testimonial-4.png';
 
 export default function Testimonialone() {
     const [ytshow, setytshow] = useState(false);
     const Testimonialslider = {
         speed: 500,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 5000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots: true,
+        dots: false,
         arrows: false
     }
     return (
@@ -29,7 +26,7 @@ export default function Testimonialone() {
                             <div className="testimonial-video-one">
                                 <Image
                                     src={Test01}
-                                    alt="testimonial-video-thamb"
+                                    alt="Success story video thumbnail"
                                     layout='intrinsic'
                                 />
                                 <Link
@@ -44,99 +41,45 @@ export default function Testimonialone() {
                             <div className="testimonial-one-right">
                                 <div className="heading-box heading-white">
                                     <span className="heading-subtitle wow fadeInUp animated animated">
-                                        🤝 SUCCESS STORY
+                                        SUCCESS STORY
                                     </span>
                                     <h2 className="heading-title wow fadeInUp animated animated">
-                                        Customer experiences with us
+                                        Project experiences with us
                                     </h2>
+                                    <p
+                                        className="wow fadeInUp animated animated white-font"
+                                        style={{
+                                            marginTop: "16px",
+                                            marginBottom: "28px",
+                                            fontSize: "17px",
+                                            lineHeight: 1.65,
+                                            maxWidth: "95%",
+                                            opacity: 0.9,
+                                        }}
+                                    >
+                                        Alshaya Enterprises supports clients with practical recommendations, reliable
+                                        products and coordinated execution. Our team helps transform project
+                                        requirements into functional, elegant and long lasting spaces across residential,
+                                        commercial and specialized environments.
+                                    </p>
                                 </div>
                                 <Slider className="testimonial-slider-one" {...Testimonialslider}>
                                     <div className="testimonial-one-item">
-                                        <p>
-                                            Signing the agreement and completing the documentation with
-                                            Loanlift was seamless and straightforward. Their team guided me
-                                            through every step, ensuring I understood all the details. I
-                                            felt confident and well-informed throughout the entire process.
+                                        <p style={{ textTransform: "none" }}>
+                                            The team provided clear guidance, suitable product options and dependable
+                                            coordination throughout the project. Their support helped us complete the
+                                            space with confidence, quality and attention to detail.
                                         </p>
                                         <div className="testimonial-one-details-inner">
                                             <div className="testimonial-one-details">
                                                 <Image
                                                     src={Test02}
-                                                    alt="Testimonial-image"
+                                                    alt="Project Partner"
                                                     layout='intrinsic'
                                                 />
                                                 <div>
-                                                    <h5 className="white-font">Michael Smith</h5>
-                                                    <p className="white-font m-0">Satisfied Client</p>
-                                                </div>
-                                            </div>
-                                            <i className="flaticon-quote-1" />
-                                        </div>
-                                    </div>
-                                    <div className="testimonial-one-item">
-                                        <p>
-                                            The process with Loanlift was incredibly smooth. From signing
-                                            the agreement to completing the documentation, their team made
-                                            sure everything was clear and easy to follow. I felt supported
-                                            every step of the way.Working with Loanlift was a breeze! Their
-                                            expert guidance made the paperwork simple.
-                                        </p>
-                                        <div className="testimonial-one-details-inner">
-                                            <div className="testimonial-one-details">
-                                                <Image
-                                                    src={Test03}
-                                                    alt="Testimonial-image"
-                                                    layout='intrinsic'
-                                                />
-                                                <div>
-                                                    <h5 className="white-font">Emily Martin</h5>
-                                                    <p className="white-font m-0">Satisfied Client</p>
-                                                </div>
-                                            </div>
-                                            <i className="flaticon-quote-1" />
-                                        </div>
-                                    </div>
-                                    <div className="testimonial-one-item">
-                                        <p>
-                                            The agreement process with Loanlift was hassle-free and
-                                            efficient. Their team ensured I understood every detail and made
-                                            the documentation straightforward, giving me confidence
-                                            throughout the entire journey, Loanlift’s team made the entire
-                                            agreement and documentation process seamless.
-                                        </p>
-                                        <div className="testimonial-one-details-inner">
-                                            <div className="testimonial-one-details">
-                                                <Image
-                                                    src={Test04}
-                                                    alt="Testimonial-image"
-                                                    layout='intrinsic'
-                                                />
-                                                <div>
-                                                    <h5 className="white-font">Brian Clark</h5>
-                                                    <p className="white-font m-0">Satisfied Client</p>
-                                                </div>
-                                            </div>
-                                            <i className="flaticon-quote-1" />
-                                        </div>
-                                    </div>
-                                    <div className="testimonial-one-item">
-                                        <p>
-                                            Loanlift made the entire loan process incredibly easy. Their
-                                            team walked me through every step, ensuring I understood all the
-                                            terms. I felt completely confident and well-supported throughout
-                                            the process, Loanlift made the entire loan process incredibly
-                                            easy.
-                                        </p>
-                                        <div className="testimonial-one-details-inner">
-                                            <div className="testimonial-one-details">
-                                                <Image
-                                                    src={Test05}
-                                                    alt="Testimonial-image"
-                                                    layout='intrinsic'
-                                                />
-                                                <div>
-                                                    <h5 className="white-font">Ashley Harris</h5>
-                                                    <p className="white-font m-0">Satisfied Client</p>
+                                                    <h5 className="white-font">Project Partner</h5>
+                                                    <p className="white-font m-0">Residential And Commercial Client</p>
                                                 </div>
                                             </div>
                                             <i className="flaticon-quote-1" />
@@ -155,6 +98,7 @@ export default function Testimonialone() {
                         <iframe
                             src="https://www.youtube.com/embed/rzfmZC3kg3M?autoplay=1"
                             allowFullScreen="allowfullscreen"
+                            title="Success story video"
                         />
                     </div>
                 </div>

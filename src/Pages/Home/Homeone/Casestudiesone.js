@@ -7,7 +7,10 @@ import Case01 from '../../../assets/images/case-study/case-study-1.jpg';
 import Case02 from '../../../assets/images/case-study/case-study-2.jpg';
 import Case03 from '../../../assets/images/case-study/case-study-3.jpg';
 import Case04 from '../../../assets/images/case-study/case-study-4.jpg';
-import Case05 from '../../../assets/images/case-study/case-study-1.jpg';
+import Case05 from '../../../assets/images/case-study/case-study-5.jpg';
+import Case06 from '../../../assets/images/case-study/case-study-6.jpg';
+import Case07 from '../../../assets/images/case-study/case-study-7.jpg';
+import Case08 from '../../../assets/images/case-study/case-study-8.jpg';
 
 export default function Casestudiesone() {
     const [backgroundImage, setBackgroundImage] = useState('');
@@ -49,33 +52,51 @@ export default function Casestudiesone() {
     const caseStudyItems = [
         {
             image: Case01,
-            title: "A case study on securing growth funding with loanLift",
-            category: "Business",
-            client: "technology Solutions"
+            title: "Four Seasons Hotel",
+            category: "Hospitality",
+            client: "Interior Solutions"
         },
         {
             image: Case02,
-            title: "How loanLift supported in managing cash flow",
-            category: "Home",
-            client: "Centric Lending"
+            title: "Modon Villas",
+            category: "Residential",
+            client: "Premium Living Spaces"
         },
         {
             image: Case03,
-            title: "A case study on growth through loanLift financing",
-            category: "Student",
-            client: "Debt Restructuring"
+            title: "Majan Lounge",
+            category: "Leisure",
+            client: "Elegant Guest Experience"
         },
         {
             image: Case04,
-            title: "LoanLift's strategies for enhancing loan accessibility",
-            category: "Business",
-            client: "Streamlined Application"
+            title: "KAU Clean Room Lab",
+            category: "Healthcare",
+            client: "Specialized Facility Solutions"
         },
         {
             image: Case05,
-            title: "A deep dive into loanLift's innovative mortgage solutions",
-            category: "Personal",
-            client: "Quick Solutions"
+            title: "Supermarket Projects",
+            category: "Retail",
+            client: "Equipment And Display Solutions"
+        },
+        {
+            image: Case06,
+            title: "Intra Logistics Mega Project",
+            category: "Warehousing",
+            client: "Storage And Logistics Solutions"
+        },
+        {
+            image: Case07,
+            title: "Gulf International Bank",
+            category: "Corporate",
+            client: "Commercial Interior Solutions"
+        },
+        {
+            image: Case08,
+            title: "Qatar Petroleum District",
+            category: "Oil And Gas",
+            client: "Large Scale Project Solutions"
         },
     ]
     const handleMouseEnter = (imageSrc) => {
@@ -93,11 +114,23 @@ export default function Casestudiesone() {
                         <div className="col-lg-9 col-md-11">
                             <div className="heading-box">
                                 <span className="heading-subtitle">
-                                    🤝 OUR PORTFOLIO
+                                    OUR PORTFOLIO
                                 </span>
                                 <h2 className="heading-title">
-                                    Our portfolio elevating financial services through innovation &amp; technology
+                                    Our portfolio reflects quality spaces across diverse project sectors
                                 </h2>
+                                <p className="heading-details" style={{ marginTop: "12px" }}>
+                                    The current Alshaya Enterprises projects page includes these project references
+                                    and sector coverage. (
+                                    <Link
+                                        href="https://www.alshayaenterprises.com"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        alshayaenterprises.com
+                                    </Link>
+                                    )
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -107,7 +140,7 @@ export default function Casestudiesone() {
                         <div
                             className="case-studies-background"
                             style={{
-                                backgroundImage: backgroundImage ? `url(${backgroundImage .src})` : '',
+                                backgroundImage: backgroundImage ? `url(${backgroundImage.src})` : '',
                                 transition: 'background-image 0.3s ease-in-out'
                             }}
                         ></div>
@@ -120,7 +153,7 @@ export default function Casestudiesone() {
                                     onMouseLeave={handleMouseLeave}
                                 >
                                     <div className="case-studies-one-image">
-                                        <Image src={data.image} alt="case-image" layout='intrinsic'/>
+                                        <Image src={data.image} alt={data.title} layout='intrinsic'/>
                                         <div className="case-studies-one-details">
                                             <div className="case-studies-details-one-inner">
                                                 <h4>

@@ -20,11 +20,11 @@ export default function Whychooseone() {
                         <div className="col-xl-9 why-choose-left-one">
                             <div className="heading-box heading-white">
                                 <span className="heading-subtitle wow fadeInUp animated animated">
-                                    🤝 WHY CHOOSE
+                                    WHY CHOOSE
                                 </span>
                                 <h2 className="heading-title wow fadeInUp animated animated">
-                                    Your trusted partner for personalized loan solutions, expert
-                                    financial guidance
+                                    Your trusted partner for tailored interiors, equipment solutions and project
+                                    guidance
                                 </h2>
                             </div>
                             <div className="why-choose-one-image">
@@ -39,11 +39,11 @@ export default function Whychooseone() {
                                     <div className="why-choose-one-box">
                                         <div className="why-choose-box-one-title">
                                             <i className="flaticon-solution" />
-                                            <h4>Personalized Loan</h4>
+                                            <h4>Turnkey Project Support</h4>
                                         </div>
                                         <p>
-                                            We offer customized loan options tailored to meet your specific
-                                            financial requirements.
+                                            We support clients from concept and product selection to supply, installation
+                                            and after sales service.
                                         </p>
                                     </div>
                                 </div>
@@ -51,11 +51,11 @@ export default function Whychooseone() {
                                     <div className="why-choose-one-box">
                                         <div className="why-choose-box-one-title">
                                             <i className="flaticon-badge" />
-                                            <h4>Competitive Rates</h4>
+                                            <h4>Quality Brand Selection</h4>
                                         </div>
                                         <p>
-                                            Benefit from loanlift competitive rates, designed to make your
-                                            loans more affordable.
+                                            We offer trusted products and solutions that balance quality, durability, design
+                                            and project budget.
                                         </p>
                                     </div>
                                 </div>
@@ -63,11 +63,11 @@ export default function Whychooseone() {
                                     <div className="why-choose-one-box">
                                         <div className="why-choose-box-one-title">
                                             <i className="flaticon-trusted" />
-                                            <h4>Trusted Partner</h4>
+                                            <h4>Experienced Project Team</h4>
                                         </div>
                                         <p>
-                                            With a commitment to transparency personalized service, we work
-                                            you every step of way.
+                                            Our design, sales, logistics and service teams work together to deliver smooth
+                                            project execution.
                                         </p>
                                     </div>
                                 </div>
@@ -76,25 +76,25 @@ export default function Whychooseone() {
                         <div className="col-xl-3 col-lg-12">
                             <ul className="counter-box-one">
                                 <li>
-                                    <h6 data-target={25} data-symbol="+">
-                                        <NumberCounter end={25} start={0} postFix="+" />
+                                    <h6 data-target={7} data-symbol="+">
+                                        <NumberCounter end={7} start={0} postFix="+" />
                                     </h6>
                                     <span>01</span>
-                                    <p>Years of trusted expertise</p>
+                                    <p>Core solution categories</p>
                                 </li>
                                 <li>
-                                    <h6 data-target={50} data-symbol="k">
-                                        <NumberCounter end={50} start={0} postFix="K" />
+                                    <h6 data-target={6} data-symbol="+">
+                                        <NumberCounter end={6} start={0} postFix=" +" />
                                     </h6>
                                     <span>02</span>
-                                    <p>Loans approved</p>
+                                    <p>Regional project experience</p>
                                 </li>
                                 <li>
-                                    <h6 data-target={10} data-symbol="K">
-                                        <NumberCounter end={10} start={0} postFix="K" />
+                                    <h6 data-target={50} data-symbol="+">
+                                        <NumberCounter end={50} start={0} postFix=" +" />
                                     </h6>
                                     <span>03</span>
-                                    <p>Satisfied clients</p>
+                                    <p>Industries served</p>
                                 </li>
                             </ul>
                         </div>

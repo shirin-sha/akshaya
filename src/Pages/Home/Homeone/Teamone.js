@@ -11,23 +11,23 @@ import Team06 from '../../../assets/images/team/team-4.jpg';
 const Teamdata = [
     {
         Image: Team03,
-        name: "Joan Johnson",
-        position: "Chief Financial Officer"
+        name: "Design Consultants",
+        position: "Space Planning And Selection"
     },
     {
         Image: Team04,
-        name: "Donnie Southern",
-        position: "Head Of Operation"
+        name: "Project Coordinators",
+        position: "Client And Site Support"
     },
     {
         Image: Team05,
-        name: "Alexandra Southern",
-        position: "Branch Manager"
+        name: "Logistics Team",
+        position: "Delivery And Supply Management"
     },
     {
         Image: Team06,
-        name: "Alexandra Southern",
-        position: "Regional Manager"
+        name: "Service Team",
+        position: "Installation And After Sales Support"
     },
 ]
 export default function Teamone() {
@@ -45,10 +45,10 @@ export default function Teamone() {
                         <div className="col-lg-8 col-md-12 m-auto">
                             <div className="heading-box text-center">
                                 <span className="heading-subtitle wow fadeInUp animated animated">
-                                    🤝 OUR TEAM
+                                    OUR TEAM
                                 </span>
                                 <h2 className="heading-title wow fadeInUp animated animated">
-                                    The team driving innovation and excellence in financial services
+                                    The team driving quality, coordination and project excellence
                                 </h2>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ export default function Teamone() {
                             <div key={index} className="col-lg-3 col-md-6 col-sm-12">
                                 <div className="team-one-box">
                                     <Link href="/Teamdetails" className="team-one-image">
-                                        <Image src={data.Image} alt="team-image" layout='intrinsic'/>
+                                        <Image src={data.Image} alt={data.name} layout='intrinsic'/>
                                     </Link>
                                     <div className="team-one-details">
                                         <div className="team-one-details-inner">

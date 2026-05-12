@@ -12,35 +12,41 @@ import Shape07 from '../../../assets/images/services/services-6.png';
 const Servicedata = [
     {
         Image: Shape02,
-        heading: "Personal Loans",
-        content: "Our Personal Loans offer flexible terms and competitive rates, tailored to meet your individual needs."
+        heading: "FF&E, Furniture And Flooring",
+        content:
+            "Premium furniture, fittings, equipment and flooring solutions for offices, hotels, education, healthcare, retail and commercial interiors.",
     },
     {
         Image: Shape03,
-        heading: "Emergency Loans",
-        content: "Quick and reliable emergency loans, providing fast access to funds when you need them most. Apply now for instant relief."
+        heading: "Sanitaryware",
+        content:
+            "Elegant and durable sanitaryware, tiles, mixers, accessories and bathroom solutions for residential and commercial projects.",
     },
     {
         Image: Shape04,
-        heading: "Business Loans",
-        content: "Empower your business with our flexible financing options. Tailored to meet the unique needs of your enterprise.",
+        heading: "Lighting Solutions",
+        content:
+            "Architectural, decorative, outdoor, industrial and emergency lighting solutions designed for performance and visual appeal.",
     },
     {
         Image: Shape05,
-        heading: "Student Loans",
-        content: "Student loans open doors to education but can also become a heavy financial burden if not managed wisely. Plan carefully."
+        heading: "Commercial Kitchens And Laundry",
+        content:
+            "Professional kitchen and laundry equipment for hotels, restaurants, hospitals, clubs, canteens and high demand operations.",
     },
     {
         Image: Shape06,
-        heading: "Mortgage Loans",
-        content: "Secure your dream home with our competitive mortgage loans. Enjoy flexible terms, low interest rates"
+        heading: "Residential Kitchens",
+        content:
+            "Custom kitchen and home furniture solutions supported by design consultation, quality materials and reliable installation.",
     },
     {
         Image: Shape07,
-        heading: "Small Business Loans",
-        content: "This content highlights the key benefits of your small business loan offerings, appealing to entrepreneurs seeking financial support."
+        heading: "Supermarket And Storage Solutions",
+        content:
+            "Smart retail, refrigeration, shelving, racking, conveyor and storage solutions for supermarkets and warehouse operations.",
     },
-]
+];
 export default function Servicesone() {
     return (
         <>
@@ -56,10 +62,10 @@ export default function Servicesone() {
                         <div className="col-lg-8 m-auto">
                             <div className="heading-box text-center">
                                 <span className="heading-subtitle wow fadeInUp animated animated">
-                                    🤝 OUR SERVICES
+                                    OUR SERVICES
                                 </span>
                                 <h2 className="heading-title wow fadeInUp animated animated">
-                                    Comprehensive financial solutions tailored to your needs
+                                    Complete interior and equipment solutions tailored to your needs
                                 </h2>
                             </div>
                         </div>

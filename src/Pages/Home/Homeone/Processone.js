@@ -36,15 +36,15 @@ export default function Processone() {
                         <div className="col-lg-6">
                             <div className="heading-box">
                                 <span className="heading-subtitle wow fadeInUp animated animated">
-                                    🤝 OUR PROCESS
+                                    OUR PROCESS
                                 </span>
                                 <h2 className="heading-title wow fadeInUp animated animated">
-                                    Consultation successful loan approval process
+                                    Consultation to successful project delivery process
                                 </h2>
                                 <p className="heading-details">
-                                    Our comprehensive process ensures a seamless journey from initial
-                                    consultation to successful loan approval. Experience personalized
-                                    guidance and expert support every step of the way.
+                                    Our process is designed to make every project clear, coordinated and result
+                                    focused. From the first discussion to final handover, we provide practical
+                                    guidance, reliable products and professional support.
                                 </p>
                             </div>
                         </div>
@@ -75,13 +75,13 @@ export default function Processone() {
                                         <i className="flaticon-application" />
                                     </div>
                                     <div className="process-one-box-title">
-                                        <h3>Application</h3>
+                                        <h3>Consultation</h3>
                                     </div>
                                     <div className="process-one-box-devider" />
                                     <div className="process-one-box-details">
                                         <p>
-                                            Start by filling out our easy online application form. Provide
-                                            basic information about yourself and your financial needs.
+                                            We understand your project needs, space requirements, preferred style, budget
+                                            and timeline.
                                         </p>
                                     </div>
                                 </div>
@@ -90,13 +90,13 @@ export default function Processone() {
                                         <i className="flaticon-contract" />
                                     </div>
                                     <div className="process-one-box-title">
-                                        <h3>Documentation</h3>
+                                        <h3>Selection</h3>
                                     </div>
                                     <div className="process-one-box-devider" />
                                     <div className="process-one-box-details">
                                         <p>
-                                            Upon approval, you'll receive clear instructions on the required
-                                            documentation. this may include income verification.
+                                            Our team recommends suitable products, finishes, materials and technical
+                                            solutions.
                                         </p>
                                     </div>
                                 </div>
@@ -105,13 +105,12 @@ export default function Processone() {
                                         <i className="flaticon-approval" />
                                     </div>
                                     <div className="process-one-box-title">
-                                        <h3>Approval</h3>
+                                        <h3>Coordination</h3>
                                     </div>
                                     <div className="process-one-box-devider" />
                                     <div className="process-one-box-details">
                                         <p>
-                                            Once your application is reviewed, we aim to provide swift
-                                            approval decisions. Our goal is to get you approved.
+                                            We manage product sourcing, delivery planning and project communication.
                                         </p>
                                     </div>
                                 </div>
@@ -120,13 +119,13 @@ export default function Processone() {
                                         <i className="flaticon-money-1" />
                                     </div>
                                     <div className="process-one-box-title">
-                                        <h3>Funding</h3>
+                                        <h3>Handover</h3>
                                     </div>
                                     <div className="process-one-box-devider" />
                                     <div className="process-one-box-details">
                                         <p>
-                                            After your documentation is verified and finalized, we initiate
-                                            the funding process. Funds are typically deposited.
+                                            Our team supports installation, final checks, service needs and project
+                                            completion.
                                         </p>
                                     </div>
                                 </div>

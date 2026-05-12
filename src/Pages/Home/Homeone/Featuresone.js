@@ -1,27 +1,11 @@
 "use client";
 import React, { useState } from "react";
-import { Range } from "react-range";
 import Link from "next/link";
 import Bgimg from "../../../assets/images/background/features-bg-three.jpg";
 import Bgimg01 from "../../../assets/images/features-video-thumb.jpg";
 
 export default function Featuresone() {
     const [ytshow, setytshow] = useState(false);
-    const [loanAmount, setLoanAmount] = useState(60000);
-    const [loanDuration, setLoanDuration] = useState(6);
-
-    const calculateMonthlyPayment = (amount, months) => {
-        const interestRate = 0.15;
-        const totalInterest = amount * interestRate;
-        const totalPayBack = amount + totalInterest;
-        const monthlyPayment = totalPayBack / months;
-        return {
-            monthlyPayment: monthlyPayment.toFixed(2),
-            totalPayBack: totalPayBack.toFixed(2),
-        };
-    };
-
-    const { monthlyPayment, totalPayBack } = calculateMonthlyPayment(loanAmount, loanDuration);
 
     return (
         <>
@@ -34,7 +18,7 @@ export default function Featuresone() {
                                 style={{ backgroundImage: `url(${Bgimg.src})` }}
                             >
                                 <h4>Get in touch with our team for personalized support and expert guidance.</h4>
-                                <Link href="/Team" className="btn btn-outline-secondary">
+                                <Link href="/Contactus" className="btn btn-outline-secondary">
                                     Connect To Team <i className="flaticon-next" />
                                 </Link>
                             </div>
@@ -49,143 +33,171 @@ export default function Featuresone() {
                                         <Link
                                             href="#"
                                             className="features-video-btn-one"
-                                            onClick={() => setytshow(true)}
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                setytshow(true);
+                                            }}
+                                            aria-label="Click To Watch"
                                         >
                                             <i className="fa-solid fa-play" />
                                         </Link>
-                                        <p>Click To watch <br /> See How we Work</p>
+                                        <div>
+                                            <p>Click To Watch</p>
+                                            <p
+                                                style={{
+                                                    marginTop: "6px",
+                                                    marginBottom: 0,
+                                                    fontSize: "24px",
+                                                    fontWeight: 700,
+                                                    lineHeight: 1.3,
+                                                    textAlign: "left",
+                                                    color: "var(--loanlift-text-light)",
+                                                }}
+                                            >
+                                                See How We Work
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-md-10">
-                            <form action="#" id="loan-calculator" data-interest-rate={15} className="features-three-form">
-                                <h3>How Much Do You Need?</h3>
-                                <div className="features-three-form-content">
-                                    <div className="input-box__top">
-                                        <span>$10000</span>
-                                        <span>$100000</span>
+                            <form action="#" className="features-three-form" onSubmit={(e) => e.preventDefault()}>
+                                <h3>What Do You Need?</h3>
+                                <div
+                                    className="features-three-form-content features-consultation-fields"
+                                    style={{ textAlign: "left", marginTop: "8px" }}
+                                >
+                                    <div style={{ marginBottom: "18px" }}>
+                                        <label
+                                            htmlFor="support-project-type"
+                                            style={{
+                                                display: "block",
+                                                marginBottom: "6px",
+                                                fontSize: "15px",
+                                                color: "var(--loanlift-text-black)",
+                                                fontWeight: 600,
+                                            }}
+                                        >
+                                            Project Type
+                                        </label>
+                                        <input
+                                            id="support-project-type"
+                                            type="text"
+                                            name="projectType"
+                                            className="form-control"
+                                            placeholder=""
+                                        />
                                     </div>
-                                    <Range
-                                        step={1000}
-                                        min={10000}
-                                        max={100000}
-                                        values={[loanAmount]}
-                                        onChange={(values) => setLoanAmount(values[0])}
-                                        renderTrack={({ props, children }) => (
-                                            <div
-                                                {...props}
-                                                style={{
-                                                    ...props.style,
-                                                    height: "10px",
-                                                    width: "100%",
-                                                    backgroundColor: "#f6f6f6",
-                                                    borderRadius: "4px",
-                                                    position: "relative",
-                                                }}
-                                            >
-                                                <div
-                                                    style={{
-                                                        position: "absolute",
-                                                        height: "10px",
-                                                        backgroundColor: "black",
-                                                        borderRadius: "4px",
-                                                        left: "0%",
-                                                        width: `${((loanAmount - 10000) / (100000 - 10000)) * 100}%`,
-                                                    }}
-                                                />
-                                                {children}
-                                            </div>
-                                        )}
-                                        renderThumb={({ props }) => {
-                                            const { key, ...restProps } = props;
-                                            return (
-                                                <div
-                                                    key={key}
-                                                    {...restProps}
-                                                    style={{
-                                                        ...restProps.style,
-                                                        height: "20px",
-                                                        width: "20px",
-                                                        backgroundColor: "#808080",
-                                                        borderRadius: "50%",
-                                                    }}
-                                                />
-                                            );
-                                        }}
-                                    />
-                                    <div style={{ textAlign: "center", marginTop: "10px", fontSize: "16px", color: "#000" }}>
-                                        ${loanAmount}
+                                    <div style={{ marginBottom: "18px" }}>
+                                        <label
+                                            htmlFor="support-service-required"
+                                            style={{
+                                                display: "block",
+                                                marginBottom: "6px",
+                                                fontSize: "15px",
+                                                color: "var(--loanlift-text-black)",
+                                                fontWeight: 600,
+                                            }}
+                                        >
+                                            Service Required
+                                        </label>
+                                        <input
+                                            id="support-service-required"
+                                            type="text"
+                                            name="serviceRequired"
+                                            className="form-control"
+                                            placeholder=""
+                                        />
                                     </div>
-                                    <div style={{ display: "flex", justifyContent: "space-between", marginTop: "10px", fontSize: "16px", color: "#000" }}>
-                                        <span>1 Month</span>
-                                        <span>12 Months</span>
+                                    <div style={{ marginBottom: "18px" }}>
+                                        <label
+                                            htmlFor="support-project-location"
+                                            style={{
+                                                display: "block",
+                                                marginBottom: "6px",
+                                                fontSize: "15px",
+                                                color: "var(--loanlift-text-black)",
+                                                fontWeight: 600,
+                                            }}
+                                        >
+                                            Project Location
+                                        </label>
+                                        <input
+                                            id="support-project-location"
+                                            type="text"
+                                            name="projectLocation"
+                                            className="form-control"
+                                            placeholder=""
+                                        />
                                     </div>
-                                    <Range
-                                        step={1}
-                                        min={1}
-                                        max={12}
-                                        values={[loanDuration]}
-                                        onChange={(values) => setLoanDuration(values[0])}
-                                        renderTrack={({ props, children }) => (
-                                            <div
-                                                {...props}
-                                                style={{
-                                                    ...props.style,
-                                                    height: "10px",
-                                                    width: "100%",
-                                                    backgroundColor: "#f6f6f6",
-                                                    borderRadius: "4px",
-                                                    position: "relative",
-                                                }}
-                                            >
-                                                <div
-                                                    style={{
-                                                        position: "absolute",
-                                                        height: "10px",
-                                                        backgroundColor: "black",
-                                                        borderRadius: "4px",
-                                                        left: "0%",
-                                                        width: `${((loanDuration - 1) / (12 - 1)) * 100}%`,
-                                                    }}
-                                                />
-                                                {children}
-                                            </div>
-                                        )}
-                                        renderThumb={({ props }) => {
-                                            const { key, ...restProps } = props;
-                                            return (
-                                                <div
-                                                    key={key}
-                                                    {...restProps}
-                                                    style={{
-                                                        ...restProps.style,
-                                                        height: "20px",
-                                                        width: "20px",
-                                                        backgroundColor: "#808080",
-                                                        borderRadius: "50%",
-                                                    }}
-                                                />
-                                            );
-                                        }}
-                                    />
-                                    <div style={{ textAlign: "center", marginTop: "10px", fontSize: "16px", color: "#000" }}>
-                                        {loanDuration} Months
+                                    <div style={{ marginBottom: "18px" }}>
+                                        <label
+                                            htmlFor="support-timeline"
+                                            style={{
+                                                display: "block",
+                                                marginBottom: "6px",
+                                                fontSize: "15px",
+                                                color: "var(--loanlift-text-black)",
+                                                fontWeight: 600,
+                                            }}
+                                        >
+                                            Timeline
+                                        </label>
+                                        <input
+                                            id="support-timeline"
+                                            type="text"
+                                            name="timeline"
+                                            className="form-control"
+                                            placeholder=""
+                                        />
                                     </div>
-                                    <div className="features-three-pay-back">
-                                        <p>
-                                            <span>Pay Monthly</span>
-                                            <b>${monthlyPayment}</b>
-                                        </p>
-                                        <p>
-                                            <span>Total Pay Back</span>
-                                            <b>${totalPayBack}</b>
-                                        </p>
+                                    <div style={{ marginBottom: "18px" }}>
+                                        <label
+                                            htmlFor="support-name"
+                                            style={{
+                                                display: "block",
+                                                marginBottom: "6px",
+                                                fontSize: "15px",
+                                                color: "var(--loanlift-text-black)",
+                                                fontWeight: 600,
+                                            }}
+                                        >
+                                            Name
+                                        </label>
+                                        <input
+                                            id="support-name"
+                                            type="text"
+                                            name="name"
+                                            className="form-control"
+                                            placeholder=""
+                                        />
                                     </div>
-                                    <button type="submit" className="btn btn-outline-secondary">
-                                        Apply For Loan
-                                    </button>
+                                    <div style={{ marginBottom: "24px" }}>
+                                        <label
+                                            htmlFor="support-phone"
+                                            style={{
+                                                display: "block",
+                                                marginBottom: "6px",
+                                                fontSize: "15px",
+                                                color: "var(--loanlift-text-black)",
+                                                fontWeight: 600,
+                                            }}
+                                        >
+                                            Phone Number
+                                        </label>
+                                        <input
+                                            id="support-phone"
+                                            type="tel"
+                                            name="phone"
+                                            className="form-control"
+                                            placeholder=""
+                                        />
+                                    </div>
                                 </div>
+                                <button type="submit" className="btn btn-outline-secondary">
+                                    Request Consultation <i className="flaticon-next" />
+                                </button>
                             </form>
                         </div>
                     </div>
@@ -198,6 +210,7 @@ export default function Featuresone() {
                         <iframe
                             src="https://www.youtube.com/embed/rzfmZC3kg3M?autoplay=1"
                             allowFullScreen
+                            title="See How We Work"
                         />
                     </div>
                 </div>

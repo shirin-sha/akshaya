@@ -1,19 +1,19 @@
 import Preloader from "../Global/Preloader";
-import Headertwo from "../Global/Headertwo";
+import Headerone from "../Home/Homeone/Headerone";
 import Innerpage from '../Contactus/Innerpage';
 import Aboutthree from '../Contactus/Aboutthree';
 import Contact from '../Contactus/Contact';
-import Footertwo from "../Global/Footertwo";
+import Footer from "../Global/Footer";
 import BackToTop from '../Global/BackToTop';
 export default function Main(){
     return(
         <>
           <Preloader />
-          <Headertwo />
+          <Headerone />
           <Innerpage/>
           <Aboutthree/>
           <Contact/>
-          <Footertwo />
+          <Footer />
           <BackToTop/>
         </>
     )

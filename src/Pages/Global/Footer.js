@@ -13,29 +13,31 @@ export default function Footer() {
                             <div className="row gutter-y-30">
                                 <div className="col-xl-3 col-lg-4 col-md-6 footer-about">
                                     <div className="footer-one-about">
-                                        <Link href="#">
-                                            <Image src={Footerlogo} alt="footer-logo" layout='intrinsic'/>
+                                        <Link href="/">
+                                            <Image src={Footerlogo} alt="Alshaya Enterprises" layout='intrinsic'/>
                                         </Link>
                                     </div>
                                     <div className="footer-one-about-details">
                                         <p>
-                                            Contact us loanlift and collaborate with us for making you Big
-                                            dream business with our best loan services
+                                            Alshaya Enterprises is a trusted turnkey interiors and commercial equipment
+                                            partner, delivering quality solutions for residential, commercial, hospitality,
+                                            retail, healthcare, education, warehousing and specialized project
+                                            requirements.
                                         </p>
                                     </div>
                                     <div className="footer-one-about-contact">
-                                        <h4>Contact us</h4>
+                                        <h4>Contact</h4>
                                         <ul>
                                             <li>
-                                                <Link href="mailto:Loanlift@gmail.com">
+                                                <Link href="mailto:info@alshayaenterprises.com">
                                                     <i className="flaticon-envelope" />
-                                                    help@company.com
+                                                    info@alshayaenterprises.com
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="tel:+020.098.45611">
+                                                <Link href="tel:+96551514000">
                                                     <i className="flaticon-phone" />
-                                                    +1 20.098.456 11
+                                                    +965 51514000
                                                 </Link>
                                             </li>
                                         </ul>
@@ -47,58 +49,62 @@ export default function Footer() {
                                         <ul>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Servicedetails">Personal Loans</Link>
+                                                <Link href="/Service1">FF&E, Furniture And Flooring</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Servicedetails">Business Loans</Link>
+                                                <Link href="/Service1">Sanitaryware</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="Servicedetails">Mortgage Loans</Link>
+                                                <Link href="/Service1">Lighting</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Servicedetails">Emergency Loans</Link>
+                                                <Link href="/Service1">Commercial Kitchens And Laundry</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Servicedetails">Student Loans</Link>
+                                                <Link href="/Service1">Residential Kitchens</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Servicedetails">Small Business Loans</Link>
+                                                <Link href="/Service1">Supermarket Equipment</Link>
+                                            </li>
+                                            <li>
+                                                <i className="flaticon-right-arrow" />
+                                                <Link href="/Service1">Warehouse And Storage Requirements</Link>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div className="col-xl-2 col-lg-4 col-md-6">
                                     <div className="footer-one-link m-0">
-                                        <h3>Page</h3>
+                                        <h3>Quick Links</h3>
                                         <ul>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Aboutus">About Us </Link>
+                                                <Link href="/Aboutus">About Us</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Faq">FAQS</Link>
+                                                <Link href="/Portfolio">Projects</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Careers">Careers </Link>
+                                                <Link href="/Blogstandard">News</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Applyloan">Apply a Loan </Link>
+                                                <Link href="#">Downloads</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Contactus">Contact Us </Link>
+                                                <Link href="/Careers">Careers</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Team">Meet The Team </Link>
+                                                <Link href="/Contactus">Contact Us</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -107,9 +113,8 @@ export default function Footer() {
                                     <div className="footer-One-subscribe">
                                         <h3>Subscribe</h3>
                                         <p>
-                                            Stay up-to-date with the latest trends in digital marketing and
-                                            receive exclusive tips and insights by subscribing to our
-                                            newsletter.
+                                            Stay updated with the latest interior solution ideas, project updates, product
+                                            insights and service news from Alshaya Enterprises.
                                         </p>
                                         <form className="footer-One-subscribe-form" action="#">
                                             <input
@@ -126,22 +131,22 @@ export default function Footer() {
                                             <h4>Social Icons</h4>
                                             <ul>
                                                 <li>
-                                                    <Link href="https://www.facebook.com/" target="_blank">
+                                                    <Link href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                                                         <i className="fa-brands fa-facebook-f" />
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="https://www.instagram.com/" target="_blank">
+                                                    <Link href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                                                         <i className="fa-brands fa-instagram" />
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="https://in.linkedin.com/" target="_blank">
+                                                    <Link href="https://in.linkedin.com/" target="_blank" rel="noopener noreferrer">
                                                         <i className="fa-brands fa-linkedin-in" />
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="https://x.com/" target="_blank">
+                                                    <Link href="https://x.com/" target="_blank" rel="noopener noreferrer">
                                                         <i className="fa-brands fa-twitter" />
                                                     </Link>
                                                 </li>
@@ -159,7 +164,7 @@ export default function Footer() {
                             <div className="row row-gap-3">
                                 <div className="col-md-6">
                                     <div className="footer-copy-right-one">
-                                        <p>© Copyright loanlift. All rights reserved</p>
+                                        <p>© Copyright Alshaya Enterprises. All rights reserved</p>
                                     </div>
                                 </div>
                                 <div className="col-md-6 text-center">
