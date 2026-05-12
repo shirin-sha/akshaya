@@ -83,7 +83,7 @@ export default function Bannerthree() {
                             <div className="banner-details">
                                 <p>
                                     we empower our clients with specialized financial insights
-                                    strategies. Whether you're navigating personal loans or seeking
+                                    strategies. Whether you{"'"}re navigating personal loans or seeking
                                     guidance business financing.
                                 </p>
                             </div>

@@ -57,7 +57,7 @@ export default function Processtwo() {
                                     <div className="process-two-box-title">
                                         <h3>Documentation</h3>
                                         <p>
-                                            Upon approval, you'll receive clear instructions on the required
+                                            Upon approval, you{"'"}ll receive clear instructions on the required
                                             documentation. This may include income verification.
                                         </p>
                                     </div>

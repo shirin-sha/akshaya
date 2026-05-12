@@ -174,7 +174,7 @@ export default function Servicestwo() {
                                         <div className="services-two-details">
                                             <p>
                                                 Securing a mortgage loan is one of the most significant
-                                                financial decisions you'll ever make. At LoanLift, we simplify
+                                                financial decisions you{"'"}ll ever make. At LoanLift, we simplify
                                                 the process by offering customized mortgage solutions.
                                             </p>
                                         </div>

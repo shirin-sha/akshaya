@@ -135,7 +135,7 @@ export default function Teamdetail() {
                                     <div className="blog-item-details">
                                         <h3>
                                             <Link href="/Blogdetails">
-                                                How to Loanlift for Your Startup's Growth Plans to loan
+                                                How to Loanlift for Your Startup{"'"}s Growth Plans to loan
                                             </Link>
                                         </h3>
                                         <Link href="/Blogdetails" className="btn-link">

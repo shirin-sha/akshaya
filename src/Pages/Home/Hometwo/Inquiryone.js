@@ -12,7 +12,7 @@ export default function Inquiryone() {
                 <div className="container">
                     <div className="heading-box">
                         <h2 className="heading-title wow fadeInUp animated animated">
-                            We're here to assist with all your loan needs &amp; questions
+                            We{"'"}re here to assist with all your loan needs &amp; questions
                         </h2>
                     </div>
                     <div className="row gutter-y-30">

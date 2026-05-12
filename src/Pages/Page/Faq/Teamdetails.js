@@ -115,7 +115,7 @@ export default function Teamdetails() {
                                         <p>Contact us directly, drop us an email!</p>
                                         <Image src={Timg01} alt="fqa-image" layout='intrinsic'/>
                                         <div className="faq-details">
-                                            <p>We'd love to hear from you! Whether you have questions, need assistance, or want to learn more about our services, feel free to reach out to us anytime.</p>
+                                            <p>We{"'"}d love to hear from you! Whether you have questions, need assistance, or want to learn more about our services, feel free to reach out to us anytime.</p>
                                         </div>
                                         <Link href="/Contactus" className="btn btn-primary">
                                             Contact Us <i className="flaticon-next" />
