@@ -59,8 +59,8 @@ export default function Testimonialtwo() {
                                         layout='intrinsic'
                                     />
                                     <div className="testimonial-two-membar">
-                                        <h5>Michael Smith</h5>
-                                        <span>CEO, martin Group</span>
+                                        <h5>Project Partner                                        </h5>
+                                        <span>Residential And Commercial Client</span>
                                     </div>
                                 </div>
                                 <p>
@@ -83,8 +83,8 @@ export default function Testimonialtwo() {
                                         layout='intrinsic'
                                     />
                                     <div className="testimonial-two-membar">
-                                        <h5>Emily Martin</h5>
-                                        <span>Small Investor</span>
+                                        <h5>Project Partner</h5>
+                                        <span>Residential And Commercial Client</span>
                                     </div>
                                 </div>
                                 <p>
@@ -107,8 +107,8 @@ export default function Testimonialtwo() {
                                         layout='intrinsic'
                                     />
                                     <div className="testimonial-two-membar">
-                                        <h5>Brian Clark</h5>
-                                        <span>Home Owner</span>
+                                        <h5>Project Partner</h5>
+                                        <span>Residential And Commercial Client</span>
                                     </div>
                                 </div>
                                 <p>
@@ -131,8 +131,8 @@ export default function Testimonialtwo() {
                                         layout='intrinsic'
                                     />
                                     <div className="testimonial-two-membar">
-                                        <h5>Ashley Harris</h5>
-                                        <span>CEO, Martin Group</span>
+                                        <h5>Project Partner</h5>
+                                        <span>Residential And Commercial Client</span>
                                     </div>
                                 </div>
                                 <p>

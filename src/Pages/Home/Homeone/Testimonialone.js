@@ -5,16 +5,19 @@ import Slider from 'react-slick';
 import Image from 'next/image';
 import Test01 from '../../../assets/images/blog/blog-three-1.jpg';
 import Test02 from '../../../assets/images/testimonial/testimonial-1.png';
+import Test03 from '../../../assets/images/testimonial/testimonial-2.png';
+import Test04 from '../../../assets/images/testimonial/testimonial-3.png';
+import Test05 from '../../../assets/images/testimonial/testimonial-4.png';
 
 export default function Testimonialone() {
     const [ytshow, setytshow] = useState(false);
     const Testimonialslider = {
         speed: 500,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 5000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots: false,
+        dots: true,
         arrows: false
     }
     return (
@@ -26,7 +29,7 @@ export default function Testimonialone() {
                             <div className="testimonial-video-one">
                                 <Image
                                     src={Test01}
-                                    alt="Success story video thumbnail"
+                                    alt="testimonial-video-thamb"
                                     layout='intrinsic'
                                 />
                                 <Link
@@ -41,31 +44,15 @@ export default function Testimonialone() {
                             <div className="testimonial-one-right">
                                 <div className="heading-box heading-white">
                                     <span className="heading-subtitle wow fadeInUp animated animated">
-                                        SUCCESS STORY
+                                        🤝 SUCCESS STORY
                                     </span>
                                     <h2 className="heading-title wow fadeInUp animated animated">
                                         Project experiences with us
                                     </h2>
-                                    <p
-                                        className="wow fadeInUp animated animated white-font"
-                                        style={{
-                                            marginTop: "16px",
-                                            marginBottom: "28px",
-                                            fontSize: "17px",
-                                            lineHeight: 1.65,
-                                            maxWidth: "95%",
-                                            opacity: 0.9,
-                                        }}
-                                    >
-                                        Alshaya Enterprises supports clients with practical recommendations, reliable
-                                        products and coordinated execution. Our team helps transform project
-                                        requirements into functional, elegant and long lasting spaces across residential,
-                                        commercial and specialized environments.
-                                    </p>
                                 </div>
                                 <Slider className="testimonial-slider-one" {...Testimonialslider}>
                                     <div className="testimonial-one-item">
-                                        <p style={{ textTransform: "none" }}>
+                                        <p>
                                             The team provided clear guidance, suitable product options and dependable
                                             coordination throughout the project. Their support helped us complete the
                                             space with confidence, quality and attention to detail.
@@ -74,7 +61,70 @@ export default function Testimonialone() {
                                             <div className="testimonial-one-details">
                                                 <Image
                                                     src={Test02}
-                                                    alt="Project Partner"
+                                                    alt="Testimonial-image"
+                                                    layout='intrinsic'
+                                                />
+                                                <div>
+                                                    <h5 className="white-font">Project Partner</h5>
+                                                    <p className="white-font m-0">Residential And Commercial Client</p> 
+                                                </div>
+                                            </div>
+                                            <i className="flaticon-quote-1" />
+                                        </div>
+                                    </div>
+                                    <div className="testimonial-one-item">
+                                        <p>
+                                            From product selection to installation, Alshaya Enterprises made our
+                                            commercial fit-out straightforward. Their team coordinated suppliers and
+                                            timelines so we could focus on opening on schedule.
+                                        </p>
+                                        <div className="testimonial-one-details-inner">
+                                            <div className="testimonial-one-details">
+                                                <Image
+                                                    src={Test03}
+                                                    alt="Testimonial-image"
+                                                    layout='intrinsic'
+                                                />
+                                                <div>
+                                                    <h5 className="white-font">Project Partner</h5>
+                                                    <p className="white-font m-0">Residential And Commercial Client</p>
+                                                </div>
+                                            </div>
+                                            <i className="flaticon-quote-1" />
+                                        </div>
+                                    </div>
+                                    <div className="testimonial-one-item">
+                                        <p>
+                                            We appreciated the practical recommendations and reliable after-sales support.
+                                            The project team understood our requirements and delivered solutions that
+                                            balanced design, durability and budget.
+                                        </p>
+                                        <div className="testimonial-one-details-inner">
+                                            <div className="testimonial-one-details">
+                                                <Image
+                                                    src={Test04}
+                                                    alt="Testimonial-image"
+                                                    layout='intrinsic'
+                                                />
+                                                <div>
+                                                    <h5 className="white-font">Project Partner</h5>
+                                                    <p className="white-font m-0">Residential And Commercial Client</p>
+                                                </div>
+                                            </div>
+                                            <i className="flaticon-quote-1" />
+                                        </div>
+                                    </div>
+                                    <div className="testimonial-one-item">
+                                        <p>
+                                            Working with Alshaya on our residential interiors was seamless. They guided
+                                            us through options, handled logistics and ensured every detail met our
+                                            expectations from concept to handover.
+                                        </p>
+                                        <div className="testimonial-one-details-inner">
+                                            <div className="testimonial-one-details">
+                                                <Image
+                                                    src={Test05}
+                                                    alt="Testimonial-image"
                                                     layout='intrinsic'
                                                 />
                                                 <div>
@@ -98,7 +148,6 @@ export default function Testimonialone() {
                         <iframe
                             src="https://www.youtube.com/embed/rzfmZC3kg3M?autoplay=1"
                             allowFullScreen="allowfullscreen"
-                            title="Success story video"
                         />
                     </div>
                 </div>

@@ -68,8 +68,8 @@ export default function Testimonialone() {
                                                         alt="Testimonial-image"  layout='intrinsic'
                                                     />
                                                     <div>
-                                                        <h5 className="white-font">Michael Smith</h5>
-                                                        <p className="white-font m-0">Satisfied Client</p>
+                                                        <h5 className="white-font">Project Partner</h5>
+                                                        <p className="white-font m-0">Residential And Commercial Client</p>
                                                     </div>
                                                 </div>
                                                 <i className="flaticon-quote-1" />
@@ -90,8 +90,8 @@ export default function Testimonialone() {
                                                         alt="Testimonial-image"   layout='intrinsic'
                                                     />
                                                     <div>
-                                                        <h5 className="white-font">Emily Martin</h5>
-                                                        <p className="white-font m-0">Satisfied Client</p>
+                                                        <h5 className="white-font">Project Partner</h5>
+                                                        <p className="white-font m-0">Residential And Commercial Client</p>
                                                     </div>
                                                 </div>
                                                 <i className="flaticon-quote-1" />
@@ -112,8 +112,8 @@ export default function Testimonialone() {
                                                         alt="Testimonial-image"   layout='intrinsic'
                                                     />
                                                     <div>
-                                                        <h5 className="white-font">Brian Clark</h5>
-                                                        <p className="white-font m-0">Satisfied Client</p>
+                                                        <h5 className="white-font">Project Partner</h5>
+                                                        <p className="white-font m-0">Residential And Commercial Client</p>
                                                     </div>
                                                 </div>
                                                 <i className="flaticon-quote-1" />
@@ -134,8 +134,8 @@ export default function Testimonialone() {
                                                         alt="Testimonial-image"    layout='intrinsic'
                                                     />
                                                     <div>
-                                                        <h5 className="white-font">Ashley Harris</h5>
-                                                        <p className="white-font m-0">Satisfied Client</p>
+                                                        <h5 className="white-font">Project Partner</h5>
+                                                        <p className="white-font m-0">Residential And Commercial Client</p>
                                                     </div>
                                                 </div>
                                                 <i className="flaticon-quote-1" />
