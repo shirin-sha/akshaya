@@ -1,20 +1,14 @@
 "use client"
 import NumberCounter from 'number-counter';
 import Image from 'next/image';
-import Why01 from '../../../assets/images/shape/why-choose-shape-2.png';
-import Why02 from '../../../assets/images/shape/why-choose-shape-2.png';
 import Why03 from '../../../assets/images/why-choose-image-1.jpg';
 
 export default function Whychooseone() {
     return (
         <>
             <section className="why-choose-section-one">
-                <div className="why-choose-shape-one-1">
-                    <Image src={Why01} alt="shape" layout='intrinsic'/>
-                </div>
-                <div className="why-choose-shape-one-2">
-                    <Image src={Why02} alt="shape" layout='intrinsic'/>
-                </div>
+              
+               
                 <div className="container">
                     <div className="row gutter-y-30">
                         <div className="col-xl-9 why-choose-left-one">

@@ -51,12 +51,8 @@ export default function Servicesone() {
     return (
         <>
             <section className="services-section-one">
-                <div className="service-one-shape-1">
-                    <Image src={Shape01} alt="shape" layout='intrinsic'/>
-                </div>
-                <div className="service-one-shape-2">
-                    <Image src={Shape00} alt="shape" layout='intrinsic'/>
-                </div>
+               
+              
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 m-auto">

@@ -662,7 +662,6 @@ ul.main-menu-list li ul li:hover a::after{
 .main-menu-logo::after {
     content: "";
     position: absolute;
-    bottom: -51px;
     right: -1px;
     height: 144px;
     width: 1px;
@@ -716,7 +715,7 @@ ul.main-menu-list li ul li:hover a::after{
     padding-top: 0;
 }
 .sticky-header--cloned.sticky-fixed .main-menu-logo::after {
-    height: 84px;
+    height: 127px;
     bottom: -26px;
 }
 /***********************
@@ -1785,7 +1784,7 @@ span.dot-text {
     background-color: rgba(6, 21, 37, 0.6);
 }
 .service-one-info h4 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 40px;
     margin-bottom: 8px;

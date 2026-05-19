@@ -33,9 +33,9 @@ export default function Blogone() {
     return (
         <>
             <section className="blog-one">
-                <div className="blog-shape-one-1">
+                {/* <div className="blog-shape-one-1">
                     <Image src={Blog01} alt="shape" layout='intrinsic'/>
-                </div>
+                </div> */}
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 m-auto">

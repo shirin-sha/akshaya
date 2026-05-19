@@ -2,8 +2,8 @@
 import React, {useState, useEffect} from 'react';
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "../../../assets/images/Header_logo.svg";
-import Logo01 from '../../../assets/images/logo.png';
+import Logo from "../../../assets/images/logo2.webp";
+import Logo01 from "../../../assets/images/logo.png";
 
 export default function Headerone() {
     const [isFixed, setIsFixed] = useState(false);
@@ -84,7 +84,14 @@ export default function Headerone() {
                     <nav className="main-menu">
                         <div className="main-menu-logo">
                             <Link href="/">
-                                <Image src={Logo} alt="header-logo" layout='intrinsic'/>
+                                <Image
+                                    src={Logo}
+                                    alt="Al Shaya Enterprises"
+                                    width={200}
+                                    height={120}
+                                    priority
+                                   
+                                />
                             </Link>
                         </div>
                         <div className="main-menu-inner">
@@ -135,7 +142,13 @@ export default function Headerone() {
                         </Link>
                         <div className="logo-box">
                             <Link href="/">
-                                <Image width={150} src={Logo01} alt="logo" layout='intrinsic'/>
+                                <Image
+                                    src={Logo01}
+                                    alt="Al Shaya Enterprises"
+                                    width={150}
+                                    height={50}
+                                    style={{ width: "100%", height: "auto", maxWidth: 150 }}
+                                />
                             </Link>
                         </div>
                         <div className="mobile-nav-container">
