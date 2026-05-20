@@ -396,9 +396,6 @@
     .testimonial-three-background-image {
         top: -480px;
     }
-    .why-choose-one-image-2 img {
-        top: -180px;
-    }
     .careers-tab-links {
         flex-wrap: wrap;
         row-gap: 10px;
@@ -613,9 +610,6 @@
     .footer-about::after {
         right: 0;
     }
-    .why-choose-one-image , .why-choose-one-image-2{
-        height: 260px;
-    }
   
 }
 @media only screen and (max-width:768px){
@@ -710,7 +704,7 @@ ul.counter-box-one li {
     letter-spacing: 0.20em;
 }
 .features-box-three-middel {
-    height: 350px;
+    min-height: 350px;
 }
 .footer-two-contact ,
 .footer-two-contact .footer-two-contact-inner+.footer-two-contact-inner{
@@ -1030,9 +1024,6 @@ a.case-studies-two-btn {
     .features-one-image {
         height: 320px;
     }
-    .why-choose-one-image, .why-choose-one-image-2 {
-        height: 150px;
-    }
     .blog-one{
         padding-bottom: 50px;
     }
@@ -1185,10 +1176,6 @@ a.case-studies-two-btn {
     }
     ul.services-details-list li{
         width: 100%;
-    }
-    .why-choose-one-image img , .why-choose-one-image-2 img{
-        transform: scale(1.2) !important;
-        top: 0;
     }
     .banner-one-slider-item-image img {
         object-position: 70%;

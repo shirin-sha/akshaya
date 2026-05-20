@@ -25,7 +25,9 @@ export default function Whychooseone() {
                                 <Image
                                     src={Why03}
                                     alt="why-choose-image"
-                                    layout='intrinsic'
+                                    width={Why03.width}
+                                    height={Why03.height}
+                                    style={{ width: '100%', height: 'auto' }}
                                 />
                             </div>
                             <div className="row">

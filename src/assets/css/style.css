@@ -1785,7 +1785,7 @@ span.dot-text {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(6, 21, 37, 0.6);
+    background-color: rgba(6, 21, 37, 0.1);
 }
 .service-one-info h4 {
     font-size: 22px;
@@ -2266,15 +2266,27 @@ ul.features-one-list li::after {
 .features-three {
     padding: 100px 0;
 }
+.features-three .row.gutter-y-30 {
+    align-items: stretch;
+}
+.features-three .row.gutter-y-30 > [class*="col-"] {
+    display: flex;
+    flex-direction: column;
+}
 .features-box-three {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: space-between;
+    flex: 1;
+    width: 100%;
+    min-height: 100%;
     height: 100%;
-    background-size: cover;
     padding: 40px 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .features-box-three h4 {
     font-size: 32px;
@@ -2483,32 +2495,33 @@ ul.features-one-list li::after {
     color: var(--loanlift-text-light);
 }
 .why-choose-one-image {
-    height: 311px;
     width: 100%;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     margin-bottom: 30px;
 }
 .why-choose-one-image-2 {
-    height: 311px;
     width: 100%;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     margin-bottom: 30px;
 }
-.why-choose-one-image img {
-    object-fit: cover;
-    top: -170px;
-    position: absolute;
-    z-index: 0;
-    transform: scale(1.5);
-}
+.why-choose-one-image img,
 .why-choose-one-image-2 img {
-    object-fit: cover;
-    top: -90px;
-    position: absolute;
+    position: relative;
+    top: auto;
+    transform: none;
     z-index: 0;
-    transform: scale(1.5);
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+.why-choose-one-image > span,
+.why-choose-one-image-2 > span {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
 }
 .why-choose-box-one-title {
     display: flex;
@@ -3196,6 +3209,13 @@ margin-bottom: 24px;
 }
 .case-studies-one .heading-title {
     margin-bottom: 40px;
+}
+.case-studies-one .heading-box .heading-details {
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+.case-studies-one .heading-box:has(.heading-details) .heading-title {
+    margin-bottom: 12px;
 }
 .case-studies-one-details {
     position: absolute;

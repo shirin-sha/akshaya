@@ -2269,7 +2269,6 @@ ul.features-one-list li::after {
     text-align: center;
     justify-content: space-between;
     height: 100%;
-    background-size: cover;
     padding: 40px 30px;
 }
 .features-box-three h4 {

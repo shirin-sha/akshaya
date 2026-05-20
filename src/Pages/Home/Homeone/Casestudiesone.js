@@ -4,13 +4,13 @@ import Slider from 'react-slick';
 import Link from "next/link";
 import Image from "next/image";
 import Case01 from '../../../assets/images/case-study/case-study-1.jpg';
-import Case02 from '../../../assets/images/case-study/case-study-2.jpg';
-import Case03 from '../../../assets/images/case-study/case-study-3.jpg';
-import Case04 from '../../../assets/images/case-study/case-study-4.jpg';
-import Case05 from '../../../assets/images/case-study/case-study-5.jpg';
-import Case06 from '../../../assets/images/case-study/case-study-6.jpg';
-import Case07 from '../../../assets/images/case-study/case-study-7.jpg';
-import Case08 from '../../../assets/images/case-study/case-study-8.jpg';
+import Case02 from '../../../assets/images/case-study/case-study-1.jpg';
+import Case03 from '../../../assets/images/case-study/case-study-1.jpg';
+import Case04 from '../../../assets/images/case-study/case-study-1.jpg';
+import Case05 from '../../../assets/images/case-study/case-study-1.jpg';
+import Case06 from '../../../assets/images/case-study/case-study-1.jpg';
+import Case07 from '../../../assets/images/case-study/case-study-1.jpg';
+import Case08 from '../../../assets/images/case-study/case-study-1.jpg';
 
 export default function Casestudiesone() {
     const [backgroundImage, setBackgroundImage] = useState('');
@@ -114,12 +114,12 @@ export default function Casestudiesone() {
                         <div className="col-lg-9 col-md-11">
                             <div className="heading-box">
                                 <span className="heading-subtitle">
-                                    OUR PORTFOLIO
+                                    🤝 OUR PORTFOLIO
                                 </span>
                                 <h2 className="heading-title">
                                     Our portfolio reflects quality spaces across diverse project sectors
                                 </h2>
-                                <p className="heading-details" style={{ marginTop: "12px" }}>
+                                <p className="heading-details">
                                     The current Alshaya Enterprises projects page includes these project references
                                     and sector coverage. (
                                     <Link
