@@ -1,7 +1,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import Footerlogo from '../../assets/images/Footer_logo.svg';
+import Logo from '../../assets/images/logo2.webp';
 
 export default function Footer() {
     return (
@@ -14,7 +14,12 @@ export default function Footer() {
                                 <div className="col-xl-3 col-lg-4 col-md-6 footer-about">
                                     <div className="footer-one-about">
                                         <Link href="/">
-                                            <Image src={Footerlogo} alt="Alshaya Enterprises" layout='intrinsic'/>
+                                            <Image
+                                                src={Logo}
+                                                alt="Al Shaya Enterprises"
+                                                width={200}
+                                                height={100}
+                                            />
                                         </Link>
                                     </div>
                                     <div className="footer-one-about-details">
