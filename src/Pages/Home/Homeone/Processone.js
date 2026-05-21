@@ -4,6 +4,37 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Process01 from '../../../assets/images/process-video-thamb.jpg';
 import Process02 from '../../../assets/images/process-image.jpg';
+import IconConsultation from '../../../assets/icons/Consultation.svg';
+import IconSelection from '../../../assets/icons/Selection.svg';
+import IconCoordination from '../../../assets/icons/Coordination.svg';
+import IconHandover from '../../../assets/icons/Handover.svg';
+
+const processSteps = [
+    {
+        icon: IconConsultation,
+        title: "Consultation",
+        description:
+            "We understand your project needs, space requirements, preferred style, budget and timeline.",
+    },
+    {
+        icon: IconSelection,
+        title: "Selection",
+        description:
+            "Our team recommends suitable products, finishes, materials and technical solutions.",
+    },
+    {
+        icon: IconCoordination,
+        title: "Coordination",
+        description:
+            "We manage product sourcing, delivery planning and project communication.",
+    },
+    {
+        icon: IconHandover,
+        title: "Handover",
+        description:
+            "Our team supports installation, final checks, service needs and project completion.",
+    },
+];
 
 export default function Processone() {
     const [ytshow, setytshow] = useState(false);
@@ -70,65 +101,26 @@ export default function Processone() {
                                 data-wow-delay="500ms"
                                 data-wow-duration="2000ms"
                             >
-                                <div className="process-one-box">
-                                    <div className="process-one-box-icon">
-                                        <i className="flaticon-application" />
+                                {processSteps.map((step, index) => (
+                                    <div key={index} className="process-one-box">
+                                        <div className="process-one-box-icon">
+                                            <Image
+                                                src={step.icon}
+                                                alt={step.title}
+                                                width={50}
+                                                height={50}
+                                                className="process-one-icon-img"
+                                            />
+                                        </div>
+                                        <div className="process-one-box-title">
+                                            <h3>{step.title}</h3>
+                                        </div>
+                                        <div className="process-one-box-devider" />
+                                        <div className="process-one-box-details">
+                                            <p>{step.description}</p>
+                                        </div>
                                     </div>
-                                    <div className="process-one-box-title">
-                                        <h3>Consultation</h3>
-                                    </div>
-                                    <div className="process-one-box-devider" />
-                                    <div className="process-one-box-details">
-                                        <p>
-                                            We understand your project needs, space requirements, preferred style, budget
-                                            and timeline.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="process-one-box">
-                                    <div className="process-one-box-icon">
-                                        <i className="flaticon-contract" />
-                                    </div>
-                                    <div className="process-one-box-title">
-                                        <h3>Selection</h3>
-                                    </div>
-                                    <div className="process-one-box-devider" />
-                                    <div className="process-one-box-details">
-                                        <p>
-                                            Our team recommends suitable products, finishes, materials and technical
-                                            solutions.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="process-one-box">
-                                    <div className="process-one-box-icon">
-                                        <i className="flaticon-approval" />
-                                    </div>
-                                    <div className="process-one-box-title">
-                                        <h3>Coordination</h3>
-                                    </div>
-                                    <div className="process-one-box-devider" />
-                                    <div className="process-one-box-details">
-                                        <p>
-                                            We manage product sourcing, delivery planning and project communication.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="process-one-box">
-                                    <div className="process-one-box-icon">
-                                        <i className="flaticon-money-1" />
-                                    </div>
-                                    <div className="process-one-box-title">
-                                        <h3>Handover</h3>
-                                    </div>
-                                    <div className="process-one-box-devider" />
-                                    <div className="process-one-box-details">
-                                        <p>
-                                            Our team supports installation, final checks, service needs and project
-                                            completion.
-                                        </p>
-                                    </div>
-                                </div>
+                                ))}
                             </div>
                         </div>
                     </div>
