@@ -1384,7 +1384,7 @@ ul.topbar-three-social-media li a:hover {
     width: 100%;
     z-index: 1;
     pointer-events: none;
-    background: rgba(16, 18, 20, 0.5);
+    background:#1c253980;
 }
 .banner-one-slider-item-image img {
     position: relative;
