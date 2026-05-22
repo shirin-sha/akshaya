@@ -1024,6 +1024,10 @@ a.case-studies-two-btn {
     .features-one-image {
         height: 320px;
     }
+    .why-choose-one-image,
+    .why-choose-one-image-2 {
+        height: 280px;
+    }
     .blog-one{
         padding-bottom: 50px;
     }

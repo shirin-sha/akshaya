@@ -27,7 +27,7 @@ export default function Whychooseone() {
                                     alt="why-choose-image"
                                     width={Why03.width}
                                     height={Why03.height}
-                                    style={{ width: '100%', height: 'auto' }}
+                                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                                 />
                             </div>
                             <div className="row">

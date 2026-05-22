@@ -663,7 +663,7 @@ ul.main-menu-list li ul li:hover a::after{
     content: "";
     position: absolute;
     right: -1px;
-    top: -7px;
+    top: -17px;
     height: 134px;
     width: 1px;
     background-color: #fff3;
@@ -716,7 +716,7 @@ ul.main-menu-list li ul li:hover a::after{
     padding-top: 0;
 }
 .sticky-header--cloned.sticky-fixed .main-menu-logo::after {
-    height: 127px;
+    height: 117px;
     bottom: -26px;
 }
 /***********************
@@ -2510,14 +2510,16 @@ ul.features-one-list li::after {
 }
 .why-choose-one-image {
     width: 100%;
+    height: 320px;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
     margin-bottom: 30px;
 }
 .why-choose-one-image-2 {
     width: 100%;
+    height: 350px;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
     margin-bottom: 30px;
 }
 .why-choose-one-image img,
@@ -2527,15 +2529,16 @@ ul.features-one-list li::after {
     transform: none;
     z-index: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: center;
 }
 .why-choose-one-image > span,
 .why-choose-one-image-2 > span {
     display: block !important;
     width: 100% !important;
-    height: auto !important;
+    height: 100% !important;
 }
 .why-choose-box-one-title {
     display: flex;

@@ -88,7 +88,7 @@ export default function Headerone() {
                                     src={Logo}
                                     alt="Al Shaya Enterprises"
                                     width={200}
-                                    height={120}
+                                    height={100}
                                     priority
                                    
                                 />
