@@ -2261,7 +2261,7 @@ ul.features-one-list li::after {
  * features three 
 ***********************/
 .features-three {
-    padding: 100px 0;
+    padding-bottom: 100px;
 }
 .features-box-three {
     display: flex;
