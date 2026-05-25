@@ -713,11 +713,22 @@ ul.main-menu-list li ul li:hover a::after{
     bottom: 0;
 }
 .sticky-header--cloned.sticky-fixed .main-menu-inner {
-    padding-top: 0;
+    padding-top: 32px;
 }
 .sticky-header--cloned.sticky-fixed .main-menu-logo::after {
     height: 117px;
     bottom: -26px;
+}
+/* .sticky-header--cloned.sticky-fixed .main-menu-logo > span {
+    display: inline-block !important;
+    width: auto !important;
+    height: auto !important;
+} */
+.sticky-header--cloned.sticky-fixed .main-menu-logo img {
+    width: 165px;
+    height: 85px !important;
+    /* max-width: 110px; */
+    /* object-fit: contain; */
 }
 /***********************
  * main-header-two
@@ -1849,11 +1860,17 @@ span.dot-text {
     align-items: center;
     justify-content: center;
 }
-.service-one-icon-box .service-one-icon-img {
+.service-one-icon-box .service-one-icon-img,
+.service-one-icon-box img {
     width: 60px;
     height: 60px;
     object-fit: contain;
     display: block;
+    transition: filter 0.5s ease;
+}
+.service-one-box:hover .service-one-icon-img,
+.service-one-box:hover .service-one-icon-box img {
+    filter: brightness(0) invert(1);
 }
 .service-one-box:hover .service-one-icon-box{
     transform: scaleX(-1);
@@ -4428,9 +4445,6 @@ ul.cta-details-three li i{
 ***********************/
 .footer-one {
     background-color: rgba(4, 16, 33, 0.95);
-    background-image: url(../images/Footer.jpg);
-    background-size: cover;
-    background-position: center;
     position: relative;
     overflow: hidden;
 }

@@ -48,7 +48,7 @@ export default function Footer() {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-xl-3 col-lg-4 col-md-6">
+                                <div className="col-xl-3 col-lg-4 col-md-6" style={{ paddingLeft: '72px' }}>
                                     <div className="footer-one-link">
                                         <h3>Services</h3>
                                         <ul>

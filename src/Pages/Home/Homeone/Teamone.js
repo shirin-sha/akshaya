@@ -34,12 +34,7 @@ export default function Teamone() {
     return (
         <>
             <section className="team-one">
-                <div className="team-shape-one-1">
-                    <Image src={Team01} alt="shape" layout='intrinsic'/>
-                </div>
-                <div className="team-shape-one-2">
-                    <Image src={Team02} alt="shape" layout='intrinsic'/>
-                </div>
+              
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 col-md-12 m-auto">

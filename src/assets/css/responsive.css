@@ -115,6 +115,10 @@
         height: 84px;
         bottom: -26px;
     }
+    .sticky-header--cloned.sticky-fixed .main-menu-logo img {
+        height: 36px !important;
+        max-width: 95px;
+    }
     .banner-two ul.slick-dots li {
         width: 200px;
     }
