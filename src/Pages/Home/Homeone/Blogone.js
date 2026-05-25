@@ -14,14 +14,14 @@ const Blogdata=[
         content: "How smart interior planning improves commercial spaces"
     },
     {
-        Image: Blog03,
+        Image: Blog04,
         badge: "HOSPITALITY",
         name: "By Alshaya Team",
         date: "On 05 May 2026",
         content: "Why quality FF&E matters for guest experience"
     },
     {
-        Image: Blog04,
+        Image: Blog03,
         badge: "RETAIL",
         name: "By Alshaya Team",
         date: "On 28 Apr 2026",

@@ -1461,30 +1461,27 @@ ul.topbar-three-social-media li a:hover {
 }
 .banner-one-box-inner {
     display: flex;
-    align-items: center;
-    column-gap: 20px;
+    column-gap: 26px;
     padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 0.5px solid rgba(158, 158, 158, 1);
 }
+.banner-one-box-inner i,
 .banner-one-box-icon {
-    position: relative;
-    flex-shrink: 0;
-    width: 56px;
-    height: 56px;
-    background-color: #000;
-    display: block;
-    overflow: hidden;
-}
-.banner-one-box-inner i {
     font-size: 45px;
     line-height: 30px;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.4);
     flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
-.banner-one-box-inner .banner-one-box-icon-img {
+.banner-one-box-icon-img {
+    width: 45px;
+    height: 45px;
     object-fit: contain;
+    display: block;
 }
 .fade-left{
     opacity: 0;
