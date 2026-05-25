@@ -1278,14 +1278,28 @@ ul.topbar-three-social-media li a:hover {
     width: 100%;
 }
 .loading-container {
-    width: 100%;
-    max-width: 520px;
+    width: fit-content;
+    max-width: calc(100% - 48px);
+    padding: 0 24px;
     text-align: center;
     color: #fff;
     position: relative;
     margin: 40vh auto;
+    box-sizing: border-box;
   }
-  .loading-container::before {
+  .loading-text {
+    font-size: clamp(28px, 5vw, 56px);
+    line-height: 1.2;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    letter-spacing: 0.12em;
+    position: relative;
+  }
+  .loading-text::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -1296,15 +1310,10 @@ ul.topbar-three-social-media li a:hover {
     border-radius: 10px;
     animation: movingLine 2.4s infinite ease-in-out;
   }
-  .loading-text {
-    font-size: 5vw;
-    line-height: 64px;
-    letter-spacing: 10px;
-    margin-bottom: 32px;
-    display: flex;
-    justify-content: space-evenly;
+  .loading-text-space {
+    width: 0.4em;
+    letter-spacing: 0;
   }
-  
   .loading-text span {
     animation: moveLetters 2.4s infinite ease-in-out;
     transform: translateX(0);
@@ -1313,14 +1322,6 @@ ul.topbar-three-social-media li a:hover {
     opacity: 0;
     text-shadow: 0px 2px 10px rgba(46, 74, 81, 0.3);
   }
-  .loading-text span:nth-child(1) { animation-delay: 0.1s; }
-  .loading-text span:nth-child(2) { animation-delay: 0.2s; }
-  .loading-text span:nth-child(3) { animation-delay: 0.3s; }
-  .loading-text span:nth-child(4) { animation-delay: 0.4s; }
-  .loading-text span:nth-child(5) { animation-delay: 0.5s; }
-  .loading-text span:nth-child(6) { animation-delay: 0.6s; }
-  .loading-text span:nth-child(7) { animation-delay: 0.7s; }
-  .loading-text span:nth-child(8) { animation-delay: 0.8s; }
 /***********************
  * banner one
 ***********************/
@@ -1338,6 +1339,7 @@ ul.topbar-three-social-media li a:hover {
     margin-bottom: 40px;
     color: var(--loanlift-text-light);
     padding-bottom: 40px;
+    padding-top: 20px;
     border-bottom: 1px solid #ffffff3b;
 }
 .banner-one-info .section-details p {

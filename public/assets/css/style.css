@@ -1324,6 +1324,7 @@ ul.topbar-three-social-media li a:hover {
     margin-bottom: 40px;
     color: var(--loanlift-text-light);
     padding-bottom: 40px;
+    padding-top: 20px;
     border-bottom: 1px solid #ffffff3b;
 }
 .banner-one-info .section-details p {
