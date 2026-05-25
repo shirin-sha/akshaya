@@ -1,15 +1,9 @@
 import Link from "next/link"
-import Servbg from '../../../assets/images/background/services-deatils-bg.jpg';
 
 export default function Servicedtlbred(){
     return(
         <>
-            <div
-            className="inner-page-hero"
-            style={{
-                backgroundImage: `url(${Servbg.src})`
-            }}
-        >
+            <div className="inner-page-hero">
             <div className="container">
                 <div className="hero-heading-title">
                     <h2>Make Your Homeownership Dream a Reality</h2>

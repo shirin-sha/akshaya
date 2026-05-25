@@ -4,13 +4,13 @@ import Slider from 'react-slick';
 import Link from "next/link";
 import Image from "next/image";
 import Case01 from '../../../assets/images/case-study/case-study-1.jpg';
-import Case02 from '../../../assets/images/case-study/case-study-1.jpg';
-import Case03 from '../../../assets/images/case-study/case-study-1.jpg';
-import Case04 from '../../../assets/images/case-study/case-study-1.jpg';
-import Case05 from '../../../assets/images/case-study/case-study-1.jpg';
-import Case06 from '../../../assets/images/case-study/case-study-1.jpg';
+import Case02 from '../../../assets/images/case-study/case-study-2.jpg';
+import Case03 from '../../../assets/images/case-study/case-study-3.jpg';
+import Case04 from '../../../assets/images/case-study/case-study-4.jpg';
+import Case05 from '../../../assets/images/case-study/case-study-5.jpg';
+import Case06 from '../../../assets/images/case-study/case-study-6.jpg';
 import Case07 from '../../../assets/images/case-study/case-study-1.jpg';
-import Case08 from '../../../assets/images/case-study/case-study-1.jpg';
+import Case08 from '../../../assets/images/case-study/case-study-2.jpg';
 
 export default function Casestudiesone() {
     const [backgroundImage, setBackgroundImage] = useState('');

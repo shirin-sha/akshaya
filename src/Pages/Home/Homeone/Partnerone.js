@@ -1,18 +1,28 @@
 "use client"
 import Slider from 'react-slick';
 import Image from 'next/image';
-import Part01 from '../../../assets/images/partner-logo/Logo_1.svg';
-import Part02 from '../../../assets/images/partner-logo/Logo_2.svg';
-import Part03 from '../../../assets/images/partner-logo/Logo_3.svg';
-import Part04 from '../../../assets/images/partner-logo/Logo_4.svg';
-import Part05 from '../../../assets/images/partner-logo/Logo_5.svg';
-import Part06 from '../../../assets/images/partner-logo/Logo_1.svg';
-import Part07 from '../../../assets/images/partner-logo/Logo_2.svg';
-import Part08 from '../../../assets/images/partner-logo/Logo_3.svg';
-import Part09 from '../../../assets/images/partner-logo/Logo_4.svg';
+import Part01 from '../../../assets/images/partner-logo/ahwet-zeitouna.webp';
+import Part02 from '../../../assets/images/partner-logo/boots.webp';
+import Part03 from '../../../assets/images/partner-logo/Canes.webp';
+import Part04 from '../../../assets/images/partner-logo/h-m .webp';
+import Part05 from '../../../assets/images/partner-logo/kidzania.webp';
+import Part06 from '../../../assets/images/partner-logo/le-labo.webp';
+import Part07 from '../../../assets/images/partner-logo/next.webp';
+import Part08 from '../../../assets/images/partner-logo/starbucks.webp';
+
+const partners = [
+    { src: Part01, alt: 'Ahwet Zeitouna' },
+    { src: Part02, alt: 'Boots' },
+    { src: Part03, alt: 'Canes' },
+    { src: Part04, alt: 'H&M' },
+    { src: Part05, alt: 'Kidzania' },
+    { src: Part06, alt: 'Le Labo' },
+    { src: Part07, alt: 'Next' },
+    { src: Part08, alt: 'Starbucks' },
+];
 
 export default function Partnerone() {
-    const Partnerone={
+    const Partnerone = {
         speed: 9000,
         autoplay: true,
         autoplaySpeed: 0,
@@ -50,51 +60,19 @@ export default function Partnerone() {
             <section className="partner-one">
                 <div className="container-fluid">
                     <Slider className="partner-slider-one" {...Partnerone}>
-                        <div className="partner-slider-one-item">
-                            <div className="partner-slider-logo">
-                                <Image src={Part01} alt="partner-logo" layout='intrinsic'/>
+                        {partners.map((partner) => (
+                            <div className="partner-slider-one-item" key={partner.alt}>
+                                <div className="partner-slider-logo">
+                                    <Image
+                                        src={partner.src}
+                                        alt={partner.alt}
+                                        fill
+                                        className="partner-slider-logo-img"
+                                        sizes="(max-width: 600px) 50vw, (max-width: 991px) 33vw, 240px"
+                                    />
+                                </div>
                             </div>
-                        </div>
-                        <div className="partner-slider-one-item">
-                            <div className="partner-slider-logo">
-                                <Image src={Part02} alt="partner-logo" layout='intrinsic'/>
-                            </div>
-                        </div>
-                        <div className="partner-slider-one-item">
-                            <div className="partner-slider-logo">
-                                <Image src={Part03} alt="partner-logo" layout='intrinsic'/>
-                            </div>
-                        </div>
-                        <div className="partner-slider-one-item">
-                            <div className="partner-slider-logo">
-                                <Image src={Part04} alt="partner-logo" layout='intrinsic'/>
-                            </div>
-                        </div>
-                        <div className="partner-slider-one-item">
-                            <div className="partner-slider-logo">
-                                <Image src={Part05} alt="partner-logo" layout='intrinsic'/>
-                            </div>
-                        </div>
-                        <div className="partner-slider-one-item">
-                            <div className="partner-slider-logo">
-                                <Image src={Part06} alt="partner-logo" layout='intrinsic'/>
-                            </div>
-                        </div>
-                        <div className="partner-slider-one-item">
-                            <div className="partner-slider-logo">
-                                <Image src={Part07} alt="partner-logo" layout='intrinsic'/>
-                            </div>
-                        </div>
-                        <div className="partner-slider-one-item">
-                            <div className="partner-slider-logo">
-                                <Image src={Part08} alt="partner-logo" layout='intrinsic'/>
-                            </div>
-                        </div>
-                        <div className="partner-slider-one-item">
-                            <div className="partner-slider-logo">
-                                <Image src={Part09} alt="partner-logo" layout='intrinsic'/>
-                            </div>
-                        </div>
+                        ))}
                     </Slider>
                 </div>
             </section>

@@ -1,13 +1,9 @@
 import Link from "next/link"
-import Faqbg from '../../assets/images/background/team-bg.jpg';
 
 export default function Faqbredcrumb({ Title, Subtitle }) {
     return (
         <>
-            <div
-                className="inner-page-hero"
-                style={{ backgroundImage: `url(${Faqbg .src})` }}
-            >
+            <div className="inner-page-hero">
                 <div className="container">
                     <div className="hero-heading-title">
                         <h2>{Title}</h2>

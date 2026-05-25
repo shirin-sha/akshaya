@@ -4,6 +4,21 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Bannerbg0 from '../../../assets/images/background/banner-one-bg.jpg';
 import Bannerbg from '../../../assets/images/background/banner-one-bg-2.jpg';
+import BannerLogo from '../../../assets/icons/banner-logo.jpg';
+
+function BannerBoxLogo() {
+    return (
+        <span className="banner-one-box-icon">
+            <Image
+                src={BannerLogo}
+                alt="Alshaya Enterprises"
+                fill
+                className="banner-one-box-icon-img"
+                sizes="56px"
+            />
+        </span>
+    );
+}
 
 export default function Bannerone() {
     const Bannerslider = {
@@ -53,7 +68,7 @@ export default function Bannerone() {
                                     </div>
                                     <div className="banner-one-box">
                                         <div className="banner-one-box-inner">
-                                            <i className="flaticon-money-bag" />
+                                            <BannerBoxLogo />
                                             <h2 className="banner-one-box-title-lg">Quality and style</h2>
                                         </div>
                                         <p>
@@ -95,7 +110,7 @@ export default function Bannerone() {
                                     </div>
                                     <div className="banner-one-box">
                                         <div className="banner-one-box-inner">
-                                            <i className="flaticon-money-bag" />
+                                            <BannerBoxLogo />
                                             <h2 className="banner-one-box-title-lg">Full scope supply</h2>
                                         </div>
                                         <p>

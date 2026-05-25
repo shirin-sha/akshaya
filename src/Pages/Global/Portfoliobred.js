@@ -1,13 +1,9 @@
 import Link from 'next/link';
-import Portfoliobg from '../../assets/images/background/protfolio-bg.jpg';
 
 export default function Portfoliobred({Title,Subtitle}) {
     return (
         <>
-            <div
-                className="inner-page-hero"
-                style={{ backgroundImage: `url(${Portfoliobg .src})` }}
-            >
+            <div className="inner-page-hero">
                 <div className="container">
                     <div className="hero-heading-title">
                         <h2>{Title}</h2>
