@@ -141,7 +141,7 @@ export default function Contact() {
                         <div className="col-lg-4">
                             <div className="contact-form-right">
                                 <h3>Say Hi To Alshaya Enterprises</h3>
-                                <Image src={Contimg01} alt="Contact" />
+                                <Image src={Contimg01} alt="Contact"/>
                                 <div className="contact-details">
                                     <p>
                                         Have questions about interior solutions, commercial equipment or project
