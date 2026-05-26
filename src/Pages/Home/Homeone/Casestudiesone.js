@@ -119,18 +119,7 @@ export default function Casestudiesone() {
                                 <h2 className="heading-title">
                                     Our portfolio reflects quality spaces across diverse project sectors
                                 </h2>
-                                <p className="heading-details">
-                                    The current Alshaya Enterprises projects page includes these project references
-                                    and sector coverage. (
-                                    <Link
-                                        href="https://www.alshayaenterprises.com"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        alshayaenterprises.com
-                                    </Link>
-                                    )
-                                </p>
+                              
                             </div>
                         </div>
                     </div>
