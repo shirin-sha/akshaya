@@ -3747,6 +3747,15 @@ margin-bottom: 24px;
     align-items: center;
     padding-left: 2px;
 }
+.testimonial-one-details img {
+    border-radius: 100%;
+    object-fit: cover;
+}
+.testimonial-one-details > span {
+    border-radius: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
 .testimonial-one-details p{
     font-size: 16px;
 }
