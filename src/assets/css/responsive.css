@@ -89,8 +89,13 @@
 }
 @media only screen and (max-width:1400px){
     .partner-slider-logo{
-        width: 180px;
-        height: 70px;
+        width: 150px;
+        height: 68px;
+    }
+    .partner-slider-logo img,
+    .partner-slider-logo .partner-slider-logo-img {
+        max-width: 110px;
+        max-height: 38px;
     }
     .main-menu-logo {
         max-width: 210px;
@@ -1048,9 +1053,14 @@ a.case-studies-two-btn {
         right: 10px;
     }
     .partner-slider-logo {
-        width: 160px;
-        height: 80px;
-        padding: 8px 12px;
+        width: 130px;
+        height: 52px;
+        padding: 6px 10px;
+    }
+    .partner-slider-logo img,
+    .partner-slider-logo .partner-slider-logo-img {
+        max-width: 100px;
+        max-height: 34px;
     }
     .curved-circle--item {
         font-size: 16px;

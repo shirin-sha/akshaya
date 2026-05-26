@@ -66,9 +66,9 @@ export default function Partnerone() {
                                     <Image
                                         src={partner.src}
                                         alt={partner.alt}
-                                        fill
+                                        width={130}
+                                        height={84}
                                         className="partner-slider-logo-img"
-                                        sizes="(max-width: 600px) 50vw, (max-width: 991px) 33vw, 240px"
                                     />
                                 </div>
                             </div>

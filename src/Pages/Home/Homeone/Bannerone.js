@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Bannerbg0 from '../../../assets/images/background/banner-one-bg.jpg';
 import Bannerbg from '../../../assets/images/background/banner-one-bg-2.jpg';
-import BannerLogo from '../../../assets/icons/logo_07.jpg';
+import BannerLogo from '../../../assets/icons/banner-logo.png';
 
 export default function Bannerone() {
     const Bannerslider = {

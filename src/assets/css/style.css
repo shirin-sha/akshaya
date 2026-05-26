@@ -2864,7 +2864,6 @@ ul.why-choose-three-counter {
     justify-content: center;
 }
 .partner-slider-logo {
-    position: relative;
     width: 240px;
     height: 120px;
     display: flex;
@@ -2876,7 +2875,11 @@ ul.why-choose-three-counter {
 }
 .partner-slider-logo img,
 .partner-slider-logo .partner-slider-logo-img {
-    object-fit: contain !important;
+    width: auto !important;
+    height: auto !important;
+    max-width: 130px;
+    max-height: 64px;
+    object-fit: contain;
 }
 /***********************
  * process one
