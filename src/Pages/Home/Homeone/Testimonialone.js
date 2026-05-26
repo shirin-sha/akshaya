@@ -28,6 +28,7 @@ export default function Testimonialone() {
                         <div className="col-lg-4 col-md-6 col-sm-10 col-12 ms-auto me-auto">
                             <div className="testimonial-video-one">
                                 <Image
+                                 
                                     src={Test01}
                                     alt="testimonial-video-thamb"
                                     layout='intrinsic'
@@ -60,6 +61,8 @@ export default function Testimonialone() {
                                         <div className="testimonial-one-details-inner">
                                             <div className="testimonial-one-details">
                                                 <Image
+                                                height={78}
+                                                width={78}
                                                     src={Test02}
                                                     alt="Testimonial-image"
                                                     layout='intrinsic'
@@ -81,6 +84,8 @@ export default function Testimonialone() {
                                         <div className="testimonial-one-details-inner">
                                             <div className="testimonial-one-details">
                                                 <Image
+                                                  height={78}
+                                                  width={78}
                                                     src={Test03}
                                                     alt="Testimonial-image"
                                                     layout='intrinsic'
@@ -102,6 +107,8 @@ export default function Testimonialone() {
                                         <div className="testimonial-one-details-inner">
                                             <div className="testimonial-one-details">
                                                 <Image
+                                                  height={78}
+                                                  width={78}
                                                     src={Test04}
                                                     alt="Testimonial-image"
                                                     layout='intrinsic'
@@ -123,6 +130,8 @@ export default function Testimonialone() {
                                         <div className="testimonial-one-details-inner">
                                             <div className="testimonial-one-details">
                                                 <Image
+                                                  height={78}
+                                                  width={78}
                                                     src={Test05}
                                                     alt="Testimonial-image"
                                                     layout='intrinsic'
