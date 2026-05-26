@@ -3085,13 +3085,31 @@ ul.why-choose-three-counter {
     position: sticky;
     top: 130px;
 }
+.case-studies-details-one-inner {
+    width: 100%;
+}
+.case-studies-details-one-inner h4 {
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 16px 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.case-studies-details-one-inner h4 a {
+    display: block;
+    color: var(--loanlift-text-light);
+    transform: none;
+}
 .case-studies-details-one-inner p {
     padding: 10px 20px;
-    width: fit-content;
-    margin: auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
     background-color: var(--loanlift-primary-bg);
     letter-spacing: 3px;
     font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
 }
 /***********************
  * process two
@@ -3291,18 +3309,21 @@ margin-bottom: 24px;
 }
 .case-studies-one-details {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
     padding: 70px 30px;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     flex-direction: column;
     z-index: 1;
     text-align: center;
     row-gap: 10px;
+    box-sizing: border-box;
 }
 .case-studies-one-details h4{
     color: var(--loanlift-text-light);
-    margin-bottom: 20px;
 }
 .case-studies-one-details p{
     color: var(--loanlift-text-light);
@@ -3316,7 +3337,7 @@ margin-bottom: 24px;
     background-color: transparent;
     margin-bottom: -10px;
 }
-.case-studies-one-details a {
+.case-studies-one-details .more-btn {
    color: var(--loanlift-text-light);
    transform: rotate(-45deg);
    flex-shrink: 0;
@@ -3383,7 +3404,14 @@ margin-bottom: 24px;
     background-color: var(--loanlift-primary-bg);
     padding-bottom: 70px;
 }
+.case-studies-slider-one-item:hover .case-studies-details-one-inner h4 {
+    background-color: transparent;
+}
 .case-studies-one__details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     transition: all 01s;
 }
 .case-studies-slider-one-item:hover .case-studies-one__details{
