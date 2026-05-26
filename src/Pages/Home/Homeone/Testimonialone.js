@@ -28,7 +28,6 @@ export default function Testimonialone() {
                         <div className="col-lg-4 col-md-6 col-sm-10 col-12 ms-auto me-auto">
                             <div className="testimonial-video-one">
                                 <Image
-                                 
                                     src={Test01}
                                     alt="testimonial-video-thamb"
                                     layout='intrinsic'
