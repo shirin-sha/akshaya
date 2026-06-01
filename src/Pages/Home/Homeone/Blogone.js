@@ -59,7 +59,7 @@ export default function Blogone() {
                                 className="col-lg-4 col-md-6">
                                 <div className="blog-one-box">
                                     <div className="blog-one-image">
-                                        <Link href="/Blogdetails">
+                                        <Link href="#">
                                             <Image src={data.Image} alt={data.content} layout='intrinsic'/>
                                         </Link>
                                         <Link href="#" className="blog-one-tag">

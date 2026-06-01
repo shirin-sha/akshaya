@@ -52,7 +52,7 @@ export default function Teamone() {
                         {Teamdata.map((data, index) =>
                             <div key={index} className="col-lg-3 col-md-6 col-sm-12">
                                 <div className="team-one-box">
-                                    <Link href="/Teamdetails" className="team-one-image">
+                                    <Link href="#" className="team-one-image">
                                         <Image src={data.Image} alt={data.name} layout='intrinsic'/>
                                     </Link>
                                     <div className="team-one-details">
