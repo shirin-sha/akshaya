@@ -32,7 +32,7 @@ export default function Bannerone() {
                             </div>
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-xl-12 col-lg-8 col-md-10">
+                                    <div className="col-xl-8 col-lg-8 col-md-10">
                                         <div className="banner-one-info">
                                             <div className="banner-title fade-left">
                                                 <h1>Transforming Spaces<br /> With Smart Interior Solutions</h1>
