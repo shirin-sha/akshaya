@@ -146,7 +146,7 @@ export default function Casestudiesone() {
                                         <div className="case-studies-one-details">
                                             <div className="case-studies-details-one-inner">
                                                 <h4>
-                                                    <Link href="/Portfoliodetails">
+                                                    <Link href="#">
                                                         {data.title}
                                                     </Link>
                                                 </h4>
