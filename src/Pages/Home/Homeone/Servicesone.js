@@ -96,14 +96,14 @@ export default function Servicesone() {
                                         {data.content}
                                     </p>
                                 </div>
-                                <Link href="/Servicedetails" className="read-more-btn">
+                                <Link href="#" className="read-more-btn">
                                     <i className="flaticon-next" />
                                 </Link>
                             </div>
                         )}
                     </div>
                     <div className="text-center">
-                        <Link href="/Service1" className="btn btn-secondary">
+                        <Link href="#" className="btn btn-secondary">
                             View More
                             <i className="flaticon-next" />
                         </Link>

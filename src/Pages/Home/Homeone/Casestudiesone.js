@@ -154,7 +154,7 @@ export default function Casestudiesone() {
                                             <div className="case-studies-one__details">
                                                 <span className="tagline">{data.category}</span>
                                                 <p>{data.client}</p>
-                                                <Link href="/Portfoliodetails" className="more-btn m-auto">
+                                                <Link href="#" className="more-btn m-auto">
                                                     <i className="flaticon-next"></i>
                                                 </Link>
                                             </div>

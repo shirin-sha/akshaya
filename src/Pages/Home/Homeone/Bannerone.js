@@ -95,7 +95,7 @@ export default function Bannerone() {
                                                 </p>
                                             </div>
                                             <div className="fade-in-up">
-                                                <Link href="/Service1" className="btn btn-primary">
+                                                <Link href="#" className="btn btn-primary">
                                                     Explore Services
                                                     <i className="flaticon-next" />
                                                 </Link>

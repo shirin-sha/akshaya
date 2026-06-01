@@ -82,12 +82,7 @@ export default function Processone() {
                         <div className="col-lg-6">
                             <div className="process-one-video">
                                 <Image src={Process01} alt="video-thumb" />
-                                <Link
-                                    href="#"
-                                    className="process-one-video-btn" onClick={() => setytshow(true)}
-                                >
-                                    <i className="fa-solid fa-play" />
-                                </Link>
+                              
                             </div>
                         </div>
                         <div className="col-xl-3 col-md-4">

@@ -76,11 +76,11 @@ export default function Blogone() {
                                     </div>
                                     <div className="blog-one-details">
                                         <h5>
-                                            <Link href="/Blogdetails">
+                                            <Link href="#">
                                                 {data.content}
                                             </Link>
                                         </h5>
-                                        <Link href="/Blogdetails" className="btn-link">
+                                        <Link href="#" className="btn-link">
                                             <span>Read More</span>
                                             <i className="flaticon-next" />
                                         </Link>

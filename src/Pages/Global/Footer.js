@@ -54,31 +54,31 @@ export default function Footer() {
                                         <ul>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Service1">FF&E, Furniture And Flooring</Link>
+                                                <Link href="#">FF&E, Furniture And Flooring</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Service1">Sanitaryware</Link>
+                                                <Link href="#">Sanitaryware</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Service1">Lighting</Link>
+                                                <Link href="#">Lighting</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Service1">Commercial Kitchens And Laundry</Link>
+                                                <Link href="#">Commercial Kitchens And Laundry</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Service1">Residential Kitchens</Link>
+                                                <Link href="#">Residential Kitchens</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Service1">Supermarket Equipment</Link>
+                                                <Link href="#">Supermarket Equipment</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Service1">Warehouse And Storage Requirements</Link>
+                                                <Link href="#">Warehouse And Storage Requirements</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -89,15 +89,15 @@ export default function Footer() {
                                         <ul>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Aboutus">About Us</Link>
+                                                <Link href="#">About Us</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Portfolio">Projects</Link>
+                                                <Link href="#">Projects</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Blogstandard">News</Link>
+                                                <Link href="#">News</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
@@ -105,7 +105,7 @@ export default function Footer() {
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
-                                                <Link href="/Careers">Careers</Link>
+                                                <Link href="#">Careers</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-right-arrow" />
