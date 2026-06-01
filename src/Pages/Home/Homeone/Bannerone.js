@@ -82,10 +82,10 @@ export default function Bannerone() {
                             </div>
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-xl-7 col-lg-8 col-md-10">
+                                    <div className="col-xl-8 col-lg-8 col-md-10">
                                         <div className="banner-one-info">
                                             <div className="banner-title fade-left">
-                                                <h1>Your Partner For Complete Project Solutions</h1>
+                                                <h1>Your Partner For  <br />Complete Project Solutions</h1>
                                             </div>
                                             <div className="section-details fade-left">
                                                 <p>
