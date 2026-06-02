@@ -47,10 +47,10 @@ export default function Headerone() {
                                     <Link href="#">Help</Link>
                                 </li>
                                 <li>
-                                    <Link href="#">About</Link>
+                                    <Link href="#">Partners</Link>
                                 </li>
                                 <li>
-                                    <Link href="#">Contact</Link>
+                                    <Link href="#">Clients</Link>
                                 </li>
                             </ul>
                             <ul className="topbar-one-social-media white-font">
@@ -127,7 +127,7 @@ export default function Headerone() {
                             </div>
                             <div className={`main-menu-right ${isMenuExpanded ? "expanded" : ""}`}>
                                 <Link href="#" className="btn btn-primary">
-                                    Get Started <i className="flaticon-next" />
+                                    Our Profile <i className="flaticon-next" />
                                 </Link>
                             </div>
                         </div>

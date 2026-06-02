@@ -30,31 +30,21 @@ export default function Featuresone() {
                             >
                                 <div className="features-video">
                                     <div className="features-video-info">
-                                        <Link
-                                            href="#"
-                                            className="features-video-btn-one"
-                                            onClick={(e) => {
-                                                e.preventDefault();
-                                                setytshow(true);
-                                            }}
-                                            aria-label="Click To Watch"
-                                        >
-                                            <i className="fa-solid fa-play" />
-                                        </Link>
+                                      
                                         <div>
-                                            <p>Click To Watch</p>
+                                            <p>Explore Our Expertise</p>
                                             <p
                                                 style={{
                                                     marginTop: "6px",
                                                     marginBottom: 0,
-                                                    fontSize: "24px",
+                                                    fontSize: "20px",
                                                     fontWeight: 700,
                                                     lineHeight: 1.3,
                                                     textAlign: "left",
                                                     color: "var(--loanlift-text-light)",
                                                 }}
                                             >
-                                                See How We Work
+                                                Delivering Projects with Excellence
                                             </p>
                                         </div>
                                     </div>
